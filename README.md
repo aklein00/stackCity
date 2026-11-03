@@ -4,6 +4,12 @@ A small playable financial-literacy scenario for ages 13–17, with a Three.js n
 
 **Current milestone: 2026-11-03.** Working browser prototype and editable Figma file delivered. Figma owner team: **aklein personal**.
 
+## City art direction
+
+[Six-direction concept sheet](output/concepts/city-style-comparison-v02.png) · [References and generation prompts](output/concepts/README.md)
+
+![Six city style directions](output/concepts/city-style-comparison-v02.png)
+
 ## Preview
 
 - [Working browser preview](https://stack-city-playable-week.aklein00.chatgpt.site) — owner-private; sign in with the owning account.
