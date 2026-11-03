@@ -1,0 +1,1 @@
+{"name":"stack-city-prototype","version":"0.1.0","type":"module","private":true,"scripts":{"test":"node --test economy.test.js","dev":"python3 -m http.server 4318 --directory dist","check":"node --check dist/app.js && node --check dist/city.js"}}

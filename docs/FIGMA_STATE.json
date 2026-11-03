@@ -1,0 +1,2490 @@
+{
+  "sessionId": "ac8ea93d-38fe-4e04-98d1-51d5f7432587",
+  "team": "team::1316499924732832341",
+  "key": "KceyHEQvNCH8jigHOgqSRW",
+  "pages": [
+    {
+      "id": "0:1",
+      "name": "00 Start Here"
+    },
+    {
+      "id": "3:2",
+      "name": "01 Flows"
+    },
+    {
+      "id": "3:3",
+      "name": "02 Foundations"
+    },
+    {
+      "id": "3:4",
+      "name": "03 Components"
+    },
+    {
+      "id": "3:5",
+      "name": "04 Game Wireframes"
+    },
+    {
+      "id": "3:6",
+      "name": "05 Prototype"
+    },
+    {
+      "id": "3:7",
+      "name": "06 Art Handoff"
+    },
+    {
+      "id": "3:8",
+      "name": "07 Review Log"
+    }
+  ],
+  "variables": {
+    "paper": "VariableID:3:12",
+    "ink": "VariableID:3:14",
+    "muted": "VariableID:3:16",
+    "line": "VariableID:3:18",
+    "accent": "VariableID:3:20",
+    "white": "VariableID:3:22",
+    "cash": "VariableID:3:24",
+    "coins": "VariableID:3:26",
+    "gems": "VariableID:3:28",
+    "learning": "VariableID:3:30",
+    "warning": "VariableID:3:32",
+    "scene": "VariableID:3:34",
+    "space/sm": "VariableID:3:35",
+    "space/md": "VariableID:3:36",
+    "space/lg": "VariableID:3:37",
+    "radius/control": "VariableID:3:38"
+  },
+  "styles": {
+    "12": "S:3bb828a29bccc624a6873cac29aac0bca30efdb9,",
+    "16": "S:acf6fa8d2cb9bc98a52d7fd872a5d1c25f96d701,",
+    "18": "S:f0202f0c444c56356b1a288afc1b96d12058b731,",
+    "24": "S:f828fd4e61bbb549150fa1572fba7cc98841dd82,",
+    "32": "S:ac07ee46c58378bb0e94ff4434132a48aac9936d,",
+    "48": "S:d1e87758c9c16f53d32fee901a3acb1bf4d322aa,"
+  },
+  "components": {
+    "Button": "3:48",
+    "Budget row": "3:61",
+    "Destination card": "3:71",
+    "Store item": "3:84",
+    "Helper card": "3:94",
+    "Notice": "3:104"
+  },
+  "button": [
+    {
+      "id": "3:45",
+      "name": "State=Primary"
+    },
+    {
+      "id": "3:46",
+      "name": "State=Secondary"
+    },
+    {
+      "id": "3:47",
+      "name": "State=Disabled"
+    }
+  ],
+  "counts": {
+    "sets": 6,
+    "variants": 19
+  },
+  "frames": [
+    {
+      "id": "SC-01",
+      "node": "5:2",
+      "controls": [
+        {
+          "id": "5:6",
+          "target": "SC-18"
+        },
+        {
+          "id": "5:63",
+          "target": "SC-02",
+          "value": "Music setup"
+        },
+        {
+          "id": "5:65",
+          "target": "SC-02",
+          "value": "Creative project"
+        },
+        {
+          "id": "5:68",
+          "target": "SC-02",
+          "value": "City weekend"
+        }
+      ],
+      "panelHeight": 273.6000061035156,
+      "scene": "5:11",
+      "textCount": 22
+    },
+    {
+      "id": "SC-02",
+      "node": "5:86",
+      "controls": [
+        {
+          "id": "5:90",
+          "target": "SC-18"
+        },
+        {
+          "id": "5:163",
+          "target": "SC-03"
+        },
+        {
+          "id": "5:165",
+          "target": "SC-01"
+        }
+      ],
+      "panelHeight": 365.6000061035156,
+      "scene": "5:95",
+      "textCount": 31
+    },
+    {
+      "id": "SC-03",
+      "node": "5:183",
+      "controls": [
+        {
+          "id": "5:187",
+          "target": "SC-18"
+        },
+        {
+          "id": "5:254",
+          "target": "SC-04"
+        },
+        {
+          "id": "5:256",
+          "target": "SC-STORE-0"
+        },
+        {
+          "id": "5:259",
+          "target": "SC-HELP-0__SC-03"
+        }
+      ],
+      "panelHeight": 367.6000061035156,
+      "scene": "5:192",
+      "textCount": 28
+    },
+    {
+      "id": "SC-04",
+      "node": "5:277",
+      "controls": [
+        {
+          "id": "5:281",
+          "target": "SC-18"
+        },
+        {
+          "id": "5:348",
+          "target": "SC-05"
+        },
+        {
+          "id": "5:350",
+          "target": "SC-03"
+        }
+      ],
+      "panelHeight": 307.6000061035156,
+      "scene": "5:286",
+      "textCount": 27
+    },
+    {
+      "id": "SC-05",
+      "node": "5:368",
+      "controls": [
+        {
+          "id": "5:372",
+          "target": "SC-18"
+        },
+        {
+          "id": "5:436",
+          "target": "SC-06"
+        },
+        {
+          "id": "5:438",
+          "target": "SC-03"
+        }
+      ],
+      "panelHeight": 278.6000061035156,
+      "scene": "5:377",
+      "textCount": 25
+    },
+    {
+      "id": "SC-06",
+      "node": "5:456",
+      "controls": [
+        {
+          "id": "5:460",
+          "target": "SC-18"
+        },
+        {
+          "id": "5:524",
+          "target": "SC-07-A"
+        },
+        {
+          "id": "5:526",
+          "target": "SC-07-B"
+        },
+        {
+          "id": "5:529",
+          "target": "SC-03"
+        },
+        {
+          "id": "5:531",
+          "target": "SC-EMPTY"
+        }
+      ],
+      "panelHeight": 338.6000061035156,
+      "scene": "5:465",
+      "textCount": 27
+    },
+    {
+      "id": "SC-EMPTY",
+      "node": "5:549",
+      "controls": [
+        {
+          "id": "5:553",
+          "target": "SC-18"
+        },
+        {
+          "id": "5:617",
+          "target": "SC-06"
+        },
+        {
+          "id": "5:619",
+          "target": "SC-03"
+        }
+      ],
+      "panelHeight": 278.6000061035156,
+      "scene": "5:558",
+      "textCount": 25
+    },
+    {
+      "id": "SC-07-A",
+      "node": "5:637",
+      "controls": [
+        {
+          "id": "5:641",
+          "target": "SC-18"
+        },
+        {
+          "id": "5:712",
+          "target": "SC-03-G-A"
+        },
+        {
+          "id": "5:714",
+          "target": "SC-06"
+        }
+      ],
+      "panelHeight": 372.6000061035156,
+      "scene": "5:646",
+      "textCount": 30
+    },
+    {
+      "id": "SC-03-G-A",
+      "node": "5:732",
+      "controls": [
+        {
+          "id": "5:736",
+          "target": "SC-18"
+        },
+        {
+          "id": "5:803",
+          "target": "SC-04-U-A"
+        },
+        {
+          "id": "5:805",
+          "target": "SC-G-DONE-A"
+        }
+      ],
+      "panelHeight": 307.6000061035156,
+      "scene": "5:741",
+      "textCount": 27
+    },
+    {
+      "id": "SC-G-DONE-A",
+      "node": "5:823",
+      "controls": [
+        {
+          "id": "5:827",
+          "target": "SC-18"
+        },
+        {
+          "id": "5:894",
+          "target": "SC-03-G-A"
+        }
+      ],
+      "panelHeight": 307.6000061035156,
+      "scene": "5:832",
+      "textCount": 26
+    },
+    {
+      "id": "SC-04-U-A",
+      "node": "5:912",
+      "controls": [
+        {
+          "id": "5:916",
+          "target": "SC-18"
+        },
+        {
+          "id": "5:983",
+          "target": "SC-05-U-A"
+        },
+        {
+          "id": "5:985",
+          "target": "SC-03-G-A"
+        }
+      ],
+      "panelHeight": 307.6000061035156,
+      "scene": "5:921",
+      "textCount": 27
+    },
+    {
+      "id": "SC-05-U-A",
+      "node": "5:1003",
+      "controls": [
+        {
+          "id": "5:1007",
+          "target": "SC-18"
+        },
+        {
+          "id": "5:1068",
+          "target": "SC-08-A"
+        },
+        {
+          "id": "5:1070",
+          "target": "SC-03-G-A"
+        }
+      ],
+      "panelHeight": 249.60000610351562,
+      "scene": "5:1012",
+      "textCount": 23
+    },
+    {
+      "id": "SC-08-A",
+      "node": "5:1088",
+      "controls": [
+        {
+          "id": "5:1092",
+          "target": "SC-18"
+        },
+        {
+          "id": "5:1166",
+          "target": "SC-U-DONE-A"
+        },
+        {
+          "id": "5:1168",
+          "target": "SC-03-G-A"
+        }
+      ],
+      "panelHeight": 401.6000061035156,
+      "scene": "5:1097",
+      "textCount": 32
+    },
+    {
+      "id": "SC-U-DONE-A",
+      "node": "5:1186",
+      "controls": [
+        {
+          "id": "5:1190",
+          "target": "SC-18"
+        },
+        {
+          "id": "5:1257",
+          "target": "SC-09-A"
+        }
+      ],
+      "panelHeight": 307.6000061035156,
+      "scene": "5:1195",
+      "textCount": 26
+    },
+    {
+      "id": "SC-09-A",
+      "node": "5:1275",
+      "controls": [
+        {
+          "id": "5:1279",
+          "target": "SC-18"
+        },
+        {
+          "id": "5:1347",
+          "target": "SC-11-A"
+        },
+        {
+          "id": "5:1349",
+          "target": "SC-U-DONE-A"
+        }
+      ],
+      "panelHeight": 343.6000061035156,
+      "scene": "5:1284",
+      "textCount": 28
+    },
+    {
+      "id": "SC-11-A",
+      "node": "5:1367",
+      "controls": [
+        {
+          "id": "5:1371",
+          "target": "SC-18"
+        },
+        {
+          "id": "5:1444",
+          "target": "SC-12-A"
+        }
+      ],
+      "panelHeight": 365.6000061035156,
+      "scene": "5:1376",
+      "textCount": 30
+    },
+    {
+      "id": "SC-12-A",
+      "node": "5:1462",
+      "controls": [
+        {
+          "id": "5:1466",
+          "target": "SC-18"
+        },
+        {
+          "id": "5:1534",
+          "target": "SC-13-A"
+        }
+      ],
+      "panelHeight": 343.6000061035156,
+      "scene": "5:1471",
+      "textCount": 27
+    },
+    {
+      "id": "SC-13-A",
+      "node": "5:1552",
+      "controls": [
+        {
+          "id": "5:1556",
+          "target": "SC-18"
+        },
+        {
+          "id": "5:1626",
+          "target": "SC-STORE-A"
+        },
+        {
+          "id": "5:1628",
+          "target": "SC-OUTCOME-A"
+        },
+        {
+          "id": "5:1631",
+          "target": "SC-HELP-0__SC-13-A"
+        }
+      ],
+      "panelHeight": 338.6000061035156,
+      "scene": "5:1561",
+      "textCount": 26
+    },
+    {
+      "id": "SC-OUTCOME-A",
+      "node": "5:1649",
+      "controls": [
+        {
+          "id": "5:1653",
+          "target": "SC-18"
+        },
+        {
+          "id": "5:1726",
+          "target": "SC-13-A"
+        }
+      ],
+      "panelHeight": 307.6000061035156,
+      "scene": "5:1658",
+      "textCount": 26
+    },
+    {
+      "id": "SC-STORE-A",
+      "node": "5:1744",
+      "controls": [
+        {
+          "id": "5:1748",
+          "target": "SC-18"
+        },
+        {
+          "id": "5:1821",
+          "target": "SC-ITEM-A"
+        },
+        {
+          "id": "5:1823",
+          "target": "SC-PAINT-A"
+        },
+        {
+          "id": "5:1826",
+          "target": "SC-13-A"
+        }
+      ],
+      "panelHeight": 367.6000061035156,
+      "scene": "5:1753",
+      "textCount": 28
+    },
+    {
+      "id": "SC-ITEM-A",
+      "node": "5:1844",
+      "controls": [
+        {
+          "id": "5:1848",
+          "target": "SC-18"
+        },
+        {
+          "id": "5:1921",
+          "target": "SC-ITEM-A-OWNED"
+        },
+        {
+          "id": "5:1923",
+          "target": "SC-STORE-A"
+        }
+      ],
+      "panelHeight": 307.6000061035156,
+      "scene": "5:1853",
+      "textCount": 27
+    },
+    {
+      "id": "SC-PAINT-A",
+      "node": "5:1941",
+      "controls": [
+        {
+          "id": "5:1945",
+          "target": "SC-18"
+        },
+        {
+          "id": "5:2019",
+          "target": "SC-STORE-A"
+        }
+      ],
+      "panelHeight": 343.6000061035156,
+      "scene": "5:1950",
+      "textCount": 27
+    },
+    {
+      "id": "SC-13-A-OWNED",
+      "node": "5:2037",
+      "controls": [
+        {
+          "id": "5:2041",
+          "target": "SC-18"
+        },
+        {
+          "id": "5:2111",
+          "target": "SC-STORE-A-OWNED"
+        },
+        {
+          "id": "5:2113",
+          "target": "SC-OUTCOME-A-OWNED"
+        },
+        {
+          "id": "5:2116",
+          "target": "SC-HELP-0__SC-13-A-OWNED"
+        }
+      ],
+      "panelHeight": 338.6000061035156,
+      "scene": "5:2046",
+      "textCount": 26
+    },
+    {
+      "id": "SC-OUTCOME-A-OWNED",
+      "node": "5:2134",
+      "controls": [
+        {
+          "id": "5:2138",
+          "target": "SC-18"
+        },
+        {
+          "id": "5:2211",
+          "target": "SC-13-A-OWNED"
+        }
+      ],
+      "panelHeight": 307.6000061035156,
+      "scene": "5:2143",
+      "textCount": 26
+    },
+    {
+      "id": "SC-STORE-A-OWNED",
+      "node": "5:2229",
+      "controls": [
+        {
+          "id": "5:2233",
+          "target": "SC-18"
+        },
+        {
+          "id": "5:2306",
+          "target": "SC-ITEM-A-OWNED"
+        },
+        {
+          "id": "5:2308",
+          "target": "SC-PAINT-A-OWNED"
+        },
+        {
+          "id": "5:2311",
+          "target": "SC-13-A-OWNED"
+        }
+      ],
+      "panelHeight": 367.6000061035156,
+      "scene": "5:2238",
+      "textCount": 28
+    },
+    {
+      "id": "SC-ITEM-A-OWNED",
+      "node": "5:2329",
+      "controls": [
+        {
+          "id": "5:2333",
+          "target": "SC-18"
+        },
+        {
+          "id": "5:2406",
+          "target": "SC-13-A-EQUIPPED"
+        },
+        {
+          "id": "5:2408",
+          "target": "SC-STORE-A-OWNED"
+        }
+      ],
+      "panelHeight": 307.6000061035156,
+      "scene": "5:2338",
+      "textCount": 27
+    },
+    {
+      "id": "SC-PAINT-A-OWNED",
+      "node": "5:2426",
+      "controls": [
+        {
+          "id": "5:2430",
+          "target": "SC-18"
+        },
+        {
+          "id": "5:2504",
+          "target": "SC-STORE-A-OWNED"
+        }
+      ],
+      "panelHeight": 343.6000061035156,
+      "scene": "5:2435",
+      "textCount": 27
+    },
+    {
+      "id": "SC-13-A-EQUIPPED",
+      "node": "5:2522",
+      "controls": [
+        {
+          "id": "5:2526",
+          "target": "SC-18"
+        },
+        {
+          "id": "5:2597",
+          "target": "SC-STORE-A-EQUIPPED"
+        },
+        {
+          "id": "5:2599",
+          "target": "SC-OUTCOME-A-EQUIPPED"
+        },
+        {
+          "id": "5:2602",
+          "target": "SC-HELP-0__SC-13-A-EQUIPPED"
+        }
+      ],
+      "panelHeight": 338.6000061035156,
+      "scene": "5:2531",
+      "textCount": 26
+    },
+    {
+      "id": "SC-OUTCOME-A-EQUIPPED",
+      "node": "5:2620",
+      "controls": [
+        {
+          "id": "5:2624",
+          "target": "SC-18"
+        },
+        {
+          "id": "5:2698",
+          "target": "SC-13-A-EQUIPPED"
+        }
+      ],
+      "panelHeight": 307.6000061035156,
+      "scene": "5:2629",
+      "textCount": 26
+    },
+    {
+      "id": "SC-STORE-A-EQUIPPED",
+      "node": "5:2716",
+      "controls": [
+        {
+          "id": "5:2720",
+          "target": "SC-18"
+        },
+        {
+          "id": "5:2794",
+          "target": "SC-ITEM-A-EQUIPPED"
+        },
+        {
+          "id": "5:2796",
+          "target": "SC-PAINT-A-EQUIPPED"
+        },
+        {
+          "id": "5:2799",
+          "target": "SC-13-A-EQUIPPED"
+        }
+      ],
+      "panelHeight": 367.6000061035156,
+      "scene": "5:2725",
+      "textCount": 28
+    },
+    {
+      "id": "SC-ITEM-A-EQUIPPED",
+      "node": "5:2817",
+      "controls": [
+        {
+          "id": "5:2821",
+          "target": "SC-18"
+        },
+        {
+          "id": "5:2895",
+          "target": "SC-13-A-EQUIPPED"
+        },
+        {
+          "id": "5:2897",
+          "target": "SC-STORE-A-EQUIPPED"
+        }
+      ],
+      "panelHeight": 307.6000061035156,
+      "scene": "5:2826",
+      "textCount": 27
+    },
+    {
+      "id": "SC-PAINT-A-EQUIPPED",
+      "node": "5:2915",
+      "controls": [
+        {
+          "id": "5:2919",
+          "target": "SC-18"
+        },
+        {
+          "id": "5:2994",
+          "target": "SC-STORE-A-EQUIPPED"
+        }
+      ],
+      "panelHeight": 343.6000061035156,
+      "scene": "5:2924",
+      "textCount": 27
+    },
+    {
+      "id": "SC-07-B",
+      "node": "5:3012",
+      "controls": [
+        {
+          "id": "5:3016",
+          "target": "SC-18"
+        },
+        {
+          "id": "5:3087",
+          "target": "SC-03-G-B"
+        },
+        {
+          "id": "5:3089",
+          "target": "SC-06"
+        }
+      ],
+      "panelHeight": 372.6000061035156,
+      "scene": "5:3021",
+      "textCount": 30
+    },
+    {
+      "id": "SC-03-G-B",
+      "node": "5:3107",
+      "controls": [
+        {
+          "id": "5:3111",
+          "target": "SC-18"
+        },
+        {
+          "id": "5:3178",
+          "target": "SC-04-U-B"
+        },
+        {
+          "id": "5:3180",
+          "target": "SC-G-DONE-B"
+        }
+      ],
+      "panelHeight": 307.6000061035156,
+      "scene": "5:3116",
+      "textCount": 27
+    },
+    {
+      "id": "SC-G-DONE-B",
+      "node": "5:3198",
+      "controls": [
+        {
+          "id": "5:3202",
+          "target": "SC-18"
+        },
+        {
+          "id": "5:3269",
+          "target": "SC-03-G-B"
+        }
+      ],
+      "panelHeight": 307.6000061035156,
+      "scene": "5:3207",
+      "textCount": 26
+    },
+    {
+      "id": "SC-04-U-B",
+      "node": "5:3287",
+      "controls": [
+        {
+          "id": "5:3291",
+          "target": "SC-18"
+        },
+        {
+          "id": "5:3358",
+          "target": "SC-05-U-B"
+        },
+        {
+          "id": "5:3360",
+          "target": "SC-03-G-B"
+        }
+      ],
+      "panelHeight": 307.6000061035156,
+      "scene": "5:3296",
+      "textCount": 27
+    },
+    {
+      "id": "SC-05-U-B",
+      "node": "5:3378",
+      "controls": [
+        {
+          "id": "5:3382",
+          "target": "SC-18"
+        },
+        {
+          "id": "5:3443",
+          "target": "SC-08-B"
+        },
+        {
+          "id": "5:3445",
+          "target": "SC-03-G-B"
+        }
+      ],
+      "panelHeight": 249.60000610351562,
+      "scene": "5:3387",
+      "textCount": 23
+    },
+    {
+      "id": "SC-08-B",
+      "node": "5:3463",
+      "controls": [
+        {
+          "id": "5:3467",
+          "target": "SC-18"
+        },
+        {
+          "id": "5:3541",
+          "target": "SC-U-DONE-B"
+        },
+        {
+          "id": "5:3543",
+          "target": "SC-03-G-B"
+        }
+      ],
+      "panelHeight": 401.6000061035156,
+      "scene": "5:3472",
+      "textCount": 32
+    },
+    {
+      "id": "SC-U-DONE-B",
+      "node": "5:3561",
+      "controls": [
+        {
+          "id": "5:3565",
+          "target": "SC-18"
+        },
+        {
+          "id": "5:3632",
+          "target": "SC-09-B"
+        }
+      ],
+      "panelHeight": 307.6000061035156,
+      "scene": "5:3570",
+      "textCount": 26
+    },
+    {
+      "id": "SC-09-B",
+      "node": "5:3650",
+      "controls": [
+        {
+          "id": "5:3654",
+          "target": "SC-18"
+        },
+        {
+          "id": "5:3722",
+          "target": "SC-10-B"
+        },
+        {
+          "id": "5:3724",
+          "target": "SC-U-DONE-B"
+        }
+      ],
+      "panelHeight": 343.6000061035156,
+      "scene": "5:3659",
+      "textCount": 28
+    },
+    {
+      "id": "SC-10-B",
+      "node": "5:3742",
+      "controls": [
+        {
+          "id": "5:3746",
+          "target": "SC-18"
+        },
+        {
+          "id": "5:3816",
+          "target": "SC-09-B-READY"
+        },
+        {
+          "id": "5:3818",
+          "target": "SC-09-B"
+        }
+      ],
+      "panelHeight": 336.6000061035156,
+      "scene": "5:3751",
+      "textCount": 29
+    },
+    {
+      "id": "SC-09-B-READY",
+      "node": "5:3836",
+      "controls": [
+        {
+          "id": "5:3840",
+          "target": "SC-18"
+        },
+        {
+          "id": "5:3907",
+          "target": "SC-11-B"
+        },
+        {
+          "id": "5:3909",
+          "target": "SC-10-B"
+        }
+      ],
+      "panelHeight": 307.6000061035156,
+      "scene": "5:3845",
+      "textCount": 27
+    },
+    {
+      "id": "SC-11-B",
+      "node": "5:3927",
+      "controls": [
+        {
+          "id": "5:3931",
+          "target": "SC-18"
+        },
+        {
+          "id": "5:4004",
+          "target": "SC-12-B"
+        }
+      ],
+      "panelHeight": 365.6000061035156,
+      "scene": "5:3936",
+      "textCount": 30
+    },
+    {
+      "id": "SC-12-B",
+      "node": "5:4022",
+      "controls": [
+        {
+          "id": "5:4026",
+          "target": "SC-18"
+        },
+        {
+          "id": "5:4094",
+          "target": "SC-13-B"
+        }
+      ],
+      "panelHeight": 343.6000061035156,
+      "scene": "5:4031",
+      "textCount": 27
+    },
+    {
+      "id": "SC-13-B",
+      "node": "5:4112",
+      "controls": [
+        {
+          "id": "5:4116",
+          "target": "SC-18"
+        },
+        {
+          "id": "5:4186",
+          "target": "SC-STORE-B"
+        },
+        {
+          "id": "5:4188",
+          "target": "SC-OUTCOME-B"
+        },
+        {
+          "id": "5:4191",
+          "target": "SC-HELP-0__SC-13-B"
+        }
+      ],
+      "panelHeight": 338.6000061035156,
+      "scene": "5:4121",
+      "textCount": 26
+    },
+    {
+      "id": "SC-OUTCOME-B",
+      "node": "5:4209",
+      "controls": [
+        {
+          "id": "5:4213",
+          "target": "SC-18"
+        },
+        {
+          "id": "5:4286",
+          "target": "SC-13-B"
+        }
+      ],
+      "panelHeight": 307.6000061035156,
+      "scene": "5:4218",
+      "textCount": 26
+    },
+    {
+      "id": "SC-STORE-B",
+      "node": "5:4304",
+      "controls": [
+        {
+          "id": "5:4308",
+          "target": "SC-18"
+        },
+        {
+          "id": "5:4381",
+          "target": "SC-ITEM-B"
+        },
+        {
+          "id": "5:4383",
+          "target": "SC-PAINT-B"
+        },
+        {
+          "id": "5:4386",
+          "target": "SC-13-B"
+        }
+      ],
+      "panelHeight": 367.6000061035156,
+      "scene": "5:4313",
+      "textCount": 28
+    },
+    {
+      "id": "SC-ITEM-B",
+      "node": "5:4404",
+      "controls": [
+        {
+          "id": "5:4408",
+          "target": "SC-18"
+        },
+        {
+          "id": "5:4481",
+          "target": "SC-ITEM-B-OWNED"
+        },
+        {
+          "id": "5:4483",
+          "target": "SC-STORE-B"
+        }
+      ],
+      "panelHeight": 307.6000061035156,
+      "scene": "5:4413",
+      "textCount": 27
+    },
+    {
+      "id": "SC-PAINT-B",
+      "node": "5:4501",
+      "controls": [
+        {
+          "id": "5:4505",
+          "target": "SC-18"
+        },
+        {
+          "id": "5:4579",
+          "target": "SC-STORE-B"
+        }
+      ],
+      "panelHeight": 343.6000061035156,
+      "scene": "5:4510",
+      "textCount": 27
+    },
+    {
+      "id": "SC-13-B-OWNED",
+      "node": "5:4597",
+      "controls": [
+        {
+          "id": "5:4601",
+          "target": "SC-18"
+        },
+        {
+          "id": "5:4671",
+          "target": "SC-STORE-B-OWNED"
+        },
+        {
+          "id": "5:4673",
+          "target": "SC-OUTCOME-B-OWNED"
+        },
+        {
+          "id": "5:4676",
+          "target": "SC-HELP-0__SC-13-B-OWNED"
+        }
+      ],
+      "panelHeight": 338.6000061035156,
+      "scene": "5:4606",
+      "textCount": 26
+    },
+    {
+      "id": "SC-OUTCOME-B-OWNED",
+      "node": "5:4694",
+      "controls": [
+        {
+          "id": "5:4698",
+          "target": "SC-18"
+        },
+        {
+          "id": "5:4771",
+          "target": "SC-13-B-OWNED"
+        }
+      ],
+      "panelHeight": 307.6000061035156,
+      "scene": "5:4703",
+      "textCount": 26
+    },
+    {
+      "id": "SC-STORE-B-OWNED",
+      "node": "5:4789",
+      "controls": [
+        {
+          "id": "5:4793",
+          "target": "SC-18"
+        },
+        {
+          "id": "5:4866",
+          "target": "SC-ITEM-B-OWNED"
+        },
+        {
+          "id": "5:4868",
+          "target": "SC-PAINT-B-OWNED"
+        },
+        {
+          "id": "5:4871",
+          "target": "SC-13-B-OWNED"
+        }
+      ],
+      "panelHeight": 367.6000061035156,
+      "scene": "5:4798",
+      "textCount": 28
+    },
+    {
+      "id": "SC-ITEM-B-OWNED",
+      "node": "5:4889",
+      "controls": [
+        {
+          "id": "5:4893",
+          "target": "SC-18"
+        },
+        {
+          "id": "5:4966",
+          "target": "SC-13-B-EQUIPPED"
+        },
+        {
+          "id": "5:4968",
+          "target": "SC-STORE-B-OWNED"
+        }
+      ],
+      "panelHeight": 307.6000061035156,
+      "scene": "5:4898",
+      "textCount": 27
+    },
+    {
+      "id": "SC-PAINT-B-OWNED",
+      "node": "5:4986",
+      "controls": [
+        {
+          "id": "5:4990",
+          "target": "SC-18"
+        },
+        {
+          "id": "5:5064",
+          "target": "SC-STORE-B-OWNED"
+        }
+      ],
+      "panelHeight": 343.6000061035156,
+      "scene": "5:4995",
+      "textCount": 27
+    },
+    {
+      "id": "SC-13-B-EQUIPPED",
+      "node": "5:5082",
+      "controls": [
+        {
+          "id": "5:5086",
+          "target": "SC-18"
+        },
+        {
+          "id": "5:5157",
+          "target": "SC-STORE-B-EQUIPPED"
+        },
+        {
+          "id": "5:5159",
+          "target": "SC-OUTCOME-B-EQUIPPED"
+        },
+        {
+          "id": "5:5162",
+          "target": "SC-HELP-0__SC-13-B-EQUIPPED"
+        }
+      ],
+      "panelHeight": 338.6000061035156,
+      "scene": "5:5091",
+      "textCount": 26
+    },
+    {
+      "id": "SC-OUTCOME-B-EQUIPPED",
+      "node": "5:5180",
+      "controls": [
+        {
+          "id": "5:5184",
+          "target": "SC-18"
+        },
+        {
+          "id": "5:5258",
+          "target": "SC-13-B-EQUIPPED"
+        }
+      ],
+      "panelHeight": 307.6000061035156,
+      "scene": "5:5189",
+      "textCount": 26
+    },
+    {
+      "id": "SC-STORE-B-EQUIPPED",
+      "node": "5:5276",
+      "controls": [
+        {
+          "id": "5:5280",
+          "target": "SC-18"
+        },
+        {
+          "id": "5:5354",
+          "target": "SC-ITEM-B-EQUIPPED"
+        },
+        {
+          "id": "5:5356",
+          "target": "SC-PAINT-B-EQUIPPED"
+        },
+        {
+          "id": "5:5359",
+          "target": "SC-13-B-EQUIPPED"
+        }
+      ],
+      "panelHeight": 367.6000061035156,
+      "scene": "5:5285",
+      "textCount": 28
+    },
+    {
+      "id": "SC-ITEM-B-EQUIPPED",
+      "node": "5:5377",
+      "controls": [
+        {
+          "id": "5:5381",
+          "target": "SC-18"
+        },
+        {
+          "id": "5:5455",
+          "target": "SC-13-B-EQUIPPED"
+        },
+        {
+          "id": "5:5457",
+          "target": "SC-STORE-B-EQUIPPED"
+        }
+      ],
+      "panelHeight": 307.6000061035156,
+      "scene": "5:5386",
+      "textCount": 27
+    },
+    {
+      "id": "SC-PAINT-B-EQUIPPED",
+      "node": "5:5475",
+      "controls": [
+        {
+          "id": "5:5479",
+          "target": "SC-18"
+        },
+        {
+          "id": "5:5554",
+          "target": "SC-STORE-B-EQUIPPED"
+        }
+      ],
+      "panelHeight": 343.6000061035156,
+      "scene": "5:5484",
+      "textCount": 27
+    },
+    {
+      "id": "SC-STORE-0",
+      "node": "5:5572",
+      "controls": [
+        {
+          "id": "5:5576",
+          "target": "SC-18"
+        },
+        {
+          "id": "5:5640",
+          "target": "SC-03"
+        }
+      ],
+      "panelHeight": 278.6000061035156,
+      "scene": "5:5581",
+      "textCount": 24
+    },
+    {
+      "id": "SC-HELP-0",
+      "node": "5:5658",
+      "controls": [
+        {
+          "id": "5:5662",
+          "target": "SC-18"
+        },
+        {
+          "id": "5:5733",
+          "target": "SC-HELP-ACTIVE"
+        },
+        {
+          "id": "5:5735",
+          "target": "SC-HELP-SELF"
+        },
+        {
+          "id": "5:5738",
+          "target": "BACK"
+        },
+        {
+          "id": "12:5859",
+          "target": "SC-HELP-LOW"
+        }
+      ],
+      "panelHeight": 432.6000061035156,
+      "scene": "5:5667",
+      "textCount": 31
+    },
+    {
+      "id": "SC-HELP-ACTIVE",
+      "node": "5:5756",
+      "controls": [
+        {
+          "id": "5:5760",
+          "target": "SC-18"
+        },
+        {
+          "id": "5:5827",
+          "target": "SC-HELP-CANCEL"
+        },
+        {
+          "id": "5:5829",
+          "target": "SC-03"
+        },
+        {
+          "id": "5:5832",
+          "target": "SC-HELP-0"
+        }
+      ],
+      "panelHeight": 367.6000061035156,
+      "scene": "5:5765",
+      "textCount": 28
+    },
+    {
+      "id": "SC-HELP-CANCEL",
+      "node": "5:5850",
+      "controls": [
+        {
+          "id": "5:5854",
+          "target": "SC-18"
+        },
+        {
+          "id": "5:5921",
+          "target": "SC-HELP-CANCELED"
+        },
+        {
+          "id": "5:5923",
+          "target": "SC-HELP-ACTIVE"
+        }
+      ],
+      "panelHeight": 307.6000061035156,
+      "scene": "5:5859",
+      "textCount": 27
+    },
+    {
+      "id": "SC-HELP-CANCELED",
+      "node": "5:5941",
+      "controls": [
+        {
+          "id": "5:5945",
+          "target": "SC-18"
+        },
+        {
+          "id": "5:6012",
+          "target": "SC-HELP-0"
+        },
+        {
+          "id": "5:6014",
+          "target": "SC-03"
+        }
+      ],
+      "panelHeight": 307.6000061035156,
+      "scene": "5:5950",
+      "textCount": 27
+    },
+    {
+      "id": "SC-HELP-SELF",
+      "node": "5:6032",
+      "controls": [
+        {
+          "id": "5:6036",
+          "target": "SC-18"
+        },
+        {
+          "id": "5:6103",
+          "target": "SC-HELP-0"
+        },
+        {
+          "id": "5:6105",
+          "target": "SC-03"
+        }
+      ],
+      "panelHeight": 307.6000061035156,
+      "scene": "5:6041",
+      "textCount": 27
+    },
+    {
+      "id": "SC-HELP-0__SC-03",
+      "node": "5:6123",
+      "controls": [
+        {
+          "id": "5:6127",
+          "target": "SC-18"
+        },
+        {
+          "id": "5:6198",
+          "target": "SC-HELP-ACTIVE__SC-03"
+        },
+        {
+          "id": "5:6200",
+          "target": "SC-HELP-SELF__SC-03"
+        },
+        {
+          "id": "5:6203",
+          "target": "SC-03"
+        },
+        {
+          "id": "12:5861",
+          "target": "SC-HELP-LOW__SC-03"
+        }
+      ],
+      "panelHeight": 432.6000061035156,
+      "scene": "5:6132",
+      "textCount": 31
+    },
+    {
+      "id": "SC-HELP-ACTIVE__SC-03",
+      "node": "5:6221",
+      "controls": [
+        {
+          "id": "5:6225",
+          "target": "SC-18"
+        },
+        {
+          "id": "5:6292",
+          "target": "SC-HELP-CANCEL__SC-03"
+        },
+        {
+          "id": "5:6294",
+          "target": "SC-03"
+        },
+        {
+          "id": "5:6297",
+          "target": "SC-HELP-0__SC-03"
+        }
+      ],
+      "panelHeight": 367.6000061035156,
+      "scene": "5:6230",
+      "textCount": 28
+    },
+    {
+      "id": "SC-HELP-CANCEL__SC-03",
+      "node": "5:6315",
+      "controls": [
+        {
+          "id": "5:6319",
+          "target": "SC-18"
+        },
+        {
+          "id": "5:6386",
+          "target": "SC-HELP-CANCELED__SC-03"
+        },
+        {
+          "id": "5:6388",
+          "target": "SC-HELP-ACTIVE__SC-03"
+        }
+      ],
+      "panelHeight": 307.6000061035156,
+      "scene": "5:6324",
+      "textCount": 27
+    },
+    {
+      "id": "SC-HELP-CANCELED__SC-03",
+      "node": "5:6406",
+      "controls": [
+        {
+          "id": "5:6410",
+          "target": "SC-18"
+        },
+        {
+          "id": "5:6477",
+          "target": "SC-HELP-0__SC-03"
+        },
+        {
+          "id": "5:6479",
+          "target": "SC-03"
+        }
+      ],
+      "panelHeight": 307.6000061035156,
+      "scene": "5:6415",
+      "textCount": 27
+    },
+    {
+      "id": "SC-HELP-SELF__SC-03",
+      "node": "5:6497",
+      "controls": [
+        {
+          "id": "5:6501",
+          "target": "SC-18"
+        },
+        {
+          "id": "5:6568",
+          "target": "SC-HELP-0__SC-03"
+        },
+        {
+          "id": "5:6570",
+          "target": "SC-03"
+        }
+      ],
+      "panelHeight": 307.6000061035156,
+      "scene": "5:6506",
+      "textCount": 27
+    },
+    {
+      "id": "SC-HELP-0__SC-13-A",
+      "node": "5:6588",
+      "controls": [
+        {
+          "id": "5:6592",
+          "target": "SC-18"
+        },
+        {
+          "id": "5:6663",
+          "target": "SC-HELP-ACTIVE__SC-13-A"
+        },
+        {
+          "id": "5:6665",
+          "target": "SC-HELP-SELF__SC-13-A"
+        },
+        {
+          "id": "5:6668",
+          "target": "SC-13-A"
+        },
+        {
+          "id": "12:5863",
+          "target": "SC-HELP-LOW__SC-13-A"
+        }
+      ],
+      "panelHeight": 432.6000061035156,
+      "scene": "5:6597",
+      "textCount": 31
+    },
+    {
+      "id": "SC-HELP-ACTIVE__SC-13-A",
+      "node": "5:6686",
+      "controls": [
+        {
+          "id": "5:6690",
+          "target": "SC-18"
+        },
+        {
+          "id": "5:6757",
+          "target": "SC-HELP-CANCEL__SC-13-A"
+        },
+        {
+          "id": "5:6759",
+          "target": "SC-13-A"
+        },
+        {
+          "id": "5:6762",
+          "target": "SC-HELP-0__SC-13-A"
+        }
+      ],
+      "panelHeight": 367.6000061035156,
+      "scene": "5:6695",
+      "textCount": 28
+    },
+    {
+      "id": "SC-HELP-CANCEL__SC-13-A",
+      "node": "5:6780",
+      "controls": [
+        {
+          "id": "5:6784",
+          "target": "SC-18"
+        },
+        {
+          "id": "5:6851",
+          "target": "SC-HELP-CANCELED__SC-13-A"
+        },
+        {
+          "id": "5:6853",
+          "target": "SC-HELP-ACTIVE__SC-13-A"
+        }
+      ],
+      "panelHeight": 307.6000061035156,
+      "scene": "5:6789",
+      "textCount": 27
+    },
+    {
+      "id": "SC-HELP-CANCELED__SC-13-A",
+      "node": "5:6871",
+      "controls": [
+        {
+          "id": "5:6875",
+          "target": "SC-18"
+        },
+        {
+          "id": "5:6942",
+          "target": "SC-HELP-0__SC-13-A"
+        },
+        {
+          "id": "5:6944",
+          "target": "SC-13-A"
+        }
+      ],
+      "panelHeight": 307.6000061035156,
+      "scene": "5:6880",
+      "textCount": 27
+    },
+    {
+      "id": "SC-HELP-SELF__SC-13-A",
+      "node": "5:6962",
+      "controls": [
+        {
+          "id": "5:6966",
+          "target": "SC-18"
+        },
+        {
+          "id": "5:7033",
+          "target": "SC-HELP-0__SC-13-A"
+        },
+        {
+          "id": "5:7035",
+          "target": "SC-13-A"
+        }
+      ],
+      "panelHeight": 307.6000061035156,
+      "scene": "5:6971",
+      "textCount": 27
+    },
+    {
+      "id": "SC-HELP-0__SC-13-A-OWNED",
+      "node": "5:7053",
+      "controls": [
+        {
+          "id": "5:7057",
+          "target": "SC-18"
+        },
+        {
+          "id": "5:7128",
+          "target": "SC-HELP-ACTIVE__SC-13-A-OWNED"
+        },
+        {
+          "id": "5:7130",
+          "target": "SC-HELP-SELF__SC-13-A-OWNED"
+        },
+        {
+          "id": "5:7133",
+          "target": "SC-13-A-OWNED"
+        },
+        {
+          "id": "12:5865",
+          "target": "SC-HELP-LOW__SC-13-A-OWNED"
+        }
+      ],
+      "panelHeight": 432.6000061035156,
+      "scene": "5:7062",
+      "textCount": 31
+    },
+    {
+      "id": "SC-HELP-ACTIVE__SC-13-A-OWNED",
+      "node": "5:7151",
+      "controls": [
+        {
+          "id": "5:7155",
+          "target": "SC-18"
+        },
+        {
+          "id": "5:7222",
+          "target": "SC-HELP-CANCEL__SC-13-A-OWNED"
+        },
+        {
+          "id": "5:7224",
+          "target": "SC-13-A-OWNED"
+        },
+        {
+          "id": "5:7227",
+          "target": "SC-HELP-0__SC-13-A-OWNED"
+        }
+      ],
+      "panelHeight": 367.6000061035156,
+      "scene": "5:7160",
+      "textCount": 28
+    },
+    {
+      "id": "SC-HELP-CANCEL__SC-13-A-OWNED",
+      "node": "5:7245",
+      "controls": [
+        {
+          "id": "5:7249",
+          "target": "SC-18"
+        },
+        {
+          "id": "5:7316",
+          "target": "SC-HELP-CANCELED__SC-13-A-OWNED"
+        },
+        {
+          "id": "5:7318",
+          "target": "SC-HELP-ACTIVE__SC-13-A-OWNED"
+        }
+      ],
+      "panelHeight": 307.6000061035156,
+      "scene": "5:7254",
+      "textCount": 27
+    },
+    {
+      "id": "SC-HELP-CANCELED__SC-13-A-OWNED",
+      "node": "5:7336",
+      "controls": [
+        {
+          "id": "5:7340",
+          "target": "SC-18"
+        },
+        {
+          "id": "5:7407",
+          "target": "SC-HELP-0__SC-13-A-OWNED"
+        },
+        {
+          "id": "5:7409",
+          "target": "SC-13-A-OWNED"
+        }
+      ],
+      "panelHeight": 307.6000061035156,
+      "scene": "5:7345",
+      "textCount": 27
+    },
+    {
+      "id": "SC-HELP-SELF__SC-13-A-OWNED",
+      "node": "5:7427",
+      "controls": [
+        {
+          "id": "5:7431",
+          "target": "SC-18"
+        },
+        {
+          "id": "5:7498",
+          "target": "SC-HELP-0__SC-13-A-OWNED"
+        },
+        {
+          "id": "5:7500",
+          "target": "SC-13-A-OWNED"
+        }
+      ],
+      "panelHeight": 307.6000061035156,
+      "scene": "5:7436",
+      "textCount": 27
+    },
+    {
+      "id": "SC-HELP-0__SC-13-A-EQUIPPED",
+      "node": "5:7518",
+      "controls": [
+        {
+          "id": "5:7522",
+          "target": "SC-18"
+        },
+        {
+          "id": "5:7593",
+          "target": "SC-HELP-ACTIVE__SC-13-A-EQUIPPED"
+        },
+        {
+          "id": "5:7595",
+          "target": "SC-HELP-SELF__SC-13-A-EQUIPPED"
+        },
+        {
+          "id": "5:7598",
+          "target": "SC-13-A-EQUIPPED"
+        },
+        {
+          "id": "12:5867",
+          "target": "SC-HELP-LOW__SC-13-A-EQUIPPED"
+        }
+      ],
+      "panelHeight": 432.6000061035156,
+      "scene": "5:7527",
+      "textCount": 31
+    },
+    {
+      "id": "SC-HELP-ACTIVE__SC-13-A-EQUIPPED",
+      "node": "5:7616",
+      "controls": [
+        {
+          "id": "5:7620",
+          "target": "SC-18"
+        },
+        {
+          "id": "5:7687",
+          "target": "SC-HELP-CANCEL__SC-13-A-EQUIPPED"
+        },
+        {
+          "id": "5:7689",
+          "target": "SC-13-A-EQUIPPED"
+        },
+        {
+          "id": "5:7692",
+          "target": "SC-HELP-0__SC-13-A-EQUIPPED"
+        }
+      ],
+      "panelHeight": 367.6000061035156,
+      "scene": "5:7625",
+      "textCount": 28
+    },
+    {
+      "id": "SC-HELP-CANCEL__SC-13-A-EQUIPPED",
+      "node": "5:7710",
+      "controls": [
+        {
+          "id": "5:7714",
+          "target": "SC-18"
+        },
+        {
+          "id": "5:7781",
+          "target": "SC-HELP-CANCELED__SC-13-A-EQUIPPED"
+        },
+        {
+          "id": "5:7783",
+          "target": "SC-HELP-ACTIVE__SC-13-A-EQUIPPED"
+        }
+      ],
+      "panelHeight": 307.6000061035156,
+      "scene": "5:7719",
+      "textCount": 27
+    },
+    {
+      "id": "SC-HELP-CANCELED__SC-13-A-EQUIPPED",
+      "node": "5:7801",
+      "controls": [
+        {
+          "id": "5:7805",
+          "target": "SC-18"
+        },
+        {
+          "id": "5:7872",
+          "target": "SC-HELP-0__SC-13-A-EQUIPPED"
+        },
+        {
+          "id": "5:7874",
+          "target": "SC-13-A-EQUIPPED"
+        }
+      ],
+      "panelHeight": 307.6000061035156,
+      "scene": "5:7810",
+      "textCount": 27
+    },
+    {
+      "id": "SC-HELP-SELF__SC-13-A-EQUIPPED",
+      "node": "5:7892",
+      "controls": [
+        {
+          "id": "5:7896",
+          "target": "SC-18"
+        },
+        {
+          "id": "5:7963",
+          "target": "SC-HELP-0__SC-13-A-EQUIPPED"
+        },
+        {
+          "id": "5:7965",
+          "target": "SC-13-A-EQUIPPED"
+        }
+      ],
+      "panelHeight": 307.6000061035156,
+      "scene": "5:7901",
+      "textCount": 27
+    },
+    {
+      "id": "SC-HELP-0__SC-13-B",
+      "node": "5:7983",
+      "controls": [
+        {
+          "id": "5:7987",
+          "target": "SC-18"
+        },
+        {
+          "id": "5:8058",
+          "target": "SC-HELP-ACTIVE__SC-13-B"
+        },
+        {
+          "id": "5:8060",
+          "target": "SC-HELP-SELF__SC-13-B"
+        },
+        {
+          "id": "5:8063",
+          "target": "SC-13-B"
+        },
+        {
+          "id": "12:5869",
+          "target": "SC-HELP-LOW__SC-13-B"
+        }
+      ],
+      "panelHeight": 432.6000061035156,
+      "scene": "5:7992",
+      "textCount": 31
+    },
+    {
+      "id": "SC-HELP-ACTIVE__SC-13-B",
+      "node": "5:8081",
+      "controls": [
+        {
+          "id": "5:8085",
+          "target": "SC-18"
+        },
+        {
+          "id": "5:8152",
+          "target": "SC-HELP-CANCEL__SC-13-B"
+        },
+        {
+          "id": "5:8154",
+          "target": "SC-13-B"
+        },
+        {
+          "id": "5:8157",
+          "target": "SC-HELP-0__SC-13-B"
+        }
+      ],
+      "panelHeight": 367.6000061035156,
+      "scene": "5:8090",
+      "textCount": 28
+    },
+    {
+      "id": "SC-HELP-CANCEL__SC-13-B",
+      "node": "5:8175",
+      "controls": [
+        {
+          "id": "5:8179",
+          "target": "SC-18"
+        },
+        {
+          "id": "5:8246",
+          "target": "SC-HELP-CANCELED__SC-13-B"
+        },
+        {
+          "id": "5:8248",
+          "target": "SC-HELP-ACTIVE__SC-13-B"
+        }
+      ],
+      "panelHeight": 307.6000061035156,
+      "scene": "5:8184",
+      "textCount": 27
+    },
+    {
+      "id": "SC-HELP-CANCELED__SC-13-B",
+      "node": "5:8266",
+      "controls": [
+        {
+          "id": "5:8270",
+          "target": "SC-18"
+        },
+        {
+          "id": "5:8337",
+          "target": "SC-HELP-0__SC-13-B"
+        },
+        {
+          "id": "5:8339",
+          "target": "SC-13-B"
+        }
+      ],
+      "panelHeight": 307.6000061035156,
+      "scene": "5:8275",
+      "textCount": 27
+    },
+    {
+      "id": "SC-HELP-SELF__SC-13-B",
+      "node": "5:8357",
+      "controls": [
+        {
+          "id": "5:8361",
+          "target": "SC-18"
+        },
+        {
+          "id": "5:8428",
+          "target": "SC-HELP-0__SC-13-B"
+        },
+        {
+          "id": "5:8430",
+          "target": "SC-13-B"
+        }
+      ],
+      "panelHeight": 307.6000061035156,
+      "scene": "5:8366",
+      "textCount": 27
+    },
+    {
+      "id": "SC-HELP-0__SC-13-B-OWNED",
+      "node": "5:8448",
+      "controls": [
+        {
+          "id": "5:8452",
+          "target": "SC-18"
+        },
+        {
+          "id": "5:8523",
+          "target": "SC-HELP-ACTIVE__SC-13-B-OWNED"
+        },
+        {
+          "id": "5:8525",
+          "target": "SC-HELP-SELF__SC-13-B-OWNED"
+        },
+        {
+          "id": "5:8528",
+          "target": "SC-13-B-OWNED"
+        },
+        {
+          "id": "12:5871",
+          "target": "SC-HELP-LOW__SC-13-B-OWNED"
+        }
+      ],
+      "panelHeight": 432.6000061035156,
+      "scene": "5:8457",
+      "textCount": 31
+    },
+    {
+      "id": "SC-HELP-ACTIVE__SC-13-B-OWNED",
+      "node": "5:8546",
+      "controls": [
+        {
+          "id": "5:8550",
+          "target": "SC-18"
+        },
+        {
+          "id": "5:8617",
+          "target": "SC-HELP-CANCEL__SC-13-B-OWNED"
+        },
+        {
+          "id": "5:8619",
+          "target": "SC-13-B-OWNED"
+        },
+        {
+          "id": "5:8622",
+          "target": "SC-HELP-0__SC-13-B-OWNED"
+        }
+      ],
+      "panelHeight": 367.6000061035156,
+      "scene": "5:8555",
+      "textCount": 28
+    },
+    {
+      "id": "SC-HELP-CANCEL__SC-13-B-OWNED",
+      "node": "5:8640",
+      "controls": [
+        {
+          "id": "5:8644",
+          "target": "SC-18"
+        },
+        {
+          "id": "5:8711",
+          "target": "SC-HELP-CANCELED__SC-13-B-OWNED"
+        },
+        {
+          "id": "5:8713",
+          "target": "SC-HELP-ACTIVE__SC-13-B-OWNED"
+        }
+      ],
+      "panelHeight": 307.6000061035156,
+      "scene": "5:8649",
+      "textCount": 27
+    },
+    {
+      "id": "SC-HELP-CANCELED__SC-13-B-OWNED",
+      "node": "5:8731",
+      "controls": [
+        {
+          "id": "5:8735",
+          "target": "SC-18"
+        },
+        {
+          "id": "5:8802",
+          "target": "SC-HELP-0__SC-13-B-OWNED"
+        },
+        {
+          "id": "5:8804",
+          "target": "SC-13-B-OWNED"
+        }
+      ],
+      "panelHeight": 307.6000061035156,
+      "scene": "5:8740",
+      "textCount": 27
+    },
+    {
+      "id": "SC-HELP-SELF__SC-13-B-OWNED",
+      "node": "5:8822",
+      "controls": [
+        {
+          "id": "5:8826",
+          "target": "SC-18"
+        },
+        {
+          "id": "5:8893",
+          "target": "SC-HELP-0__SC-13-B-OWNED"
+        },
+        {
+          "id": "5:8895",
+          "target": "SC-13-B-OWNED"
+        }
+      ],
+      "panelHeight": 307.6000061035156,
+      "scene": "5:8831",
+      "textCount": 27
+    },
+    {
+      "id": "SC-HELP-0__SC-13-B-EQUIPPED",
+      "node": "5:8913",
+      "controls": [
+        {
+          "id": "5:8917",
+          "target": "SC-18"
+        },
+        {
+          "id": "5:8988",
+          "target": "SC-HELP-ACTIVE__SC-13-B-EQUIPPED"
+        },
+        {
+          "id": "5:8990",
+          "target": "SC-HELP-SELF__SC-13-B-EQUIPPED"
+        },
+        {
+          "id": "5:8993",
+          "target": "SC-13-B-EQUIPPED"
+        },
+        {
+          "id": "12:5873",
+          "target": "SC-HELP-LOW__SC-13-B-EQUIPPED"
+        }
+      ],
+      "panelHeight": 432.6000061035156,
+      "scene": "5:8922",
+      "textCount": 31
+    },
+    {
+      "id": "SC-HELP-ACTIVE__SC-13-B-EQUIPPED",
+      "node": "5:9011",
+      "controls": [
+        {
+          "id": "5:9015",
+          "target": "SC-18"
+        },
+        {
+          "id": "5:9082",
+          "target": "SC-HELP-CANCEL__SC-13-B-EQUIPPED"
+        },
+        {
+          "id": "5:9084",
+          "target": "SC-13-B-EQUIPPED"
+        },
+        {
+          "id": "5:9087",
+          "target": "SC-HELP-0__SC-13-B-EQUIPPED"
+        }
+      ],
+      "panelHeight": 367.6000061035156,
+      "scene": "5:9020",
+      "textCount": 28
+    },
+    {
+      "id": "SC-HELP-CANCEL__SC-13-B-EQUIPPED",
+      "node": "5:9105",
+      "controls": [
+        {
+          "id": "5:9109",
+          "target": "SC-18"
+        },
+        {
+          "id": "5:9176",
+          "target": "SC-HELP-CANCELED__SC-13-B-EQUIPPED"
+        },
+        {
+          "id": "5:9178",
+          "target": "SC-HELP-ACTIVE__SC-13-B-EQUIPPED"
+        }
+      ],
+      "panelHeight": 307.6000061035156,
+      "scene": "5:9114",
+      "textCount": 27
+    },
+    {
+      "id": "SC-HELP-CANCELED__SC-13-B-EQUIPPED",
+      "node": "5:9196",
+      "controls": [
+        {
+          "id": "5:9200",
+          "target": "SC-18"
+        },
+        {
+          "id": "5:9267",
+          "target": "SC-HELP-0__SC-13-B-EQUIPPED"
+        },
+        {
+          "id": "5:9269",
+          "target": "SC-13-B-EQUIPPED"
+        }
+      ],
+      "panelHeight": 307.6000061035156,
+      "scene": "5:9205",
+      "textCount": 27
+    },
+    {
+      "id": "SC-HELP-SELF__SC-13-B-EQUIPPED",
+      "node": "5:9287",
+      "controls": [
+        {
+          "id": "5:9291",
+          "target": "SC-18"
+        },
+        {
+          "id": "5:9358",
+          "target": "SC-HELP-0__SC-13-B-EQUIPPED"
+        },
+        {
+          "id": "5:9360",
+          "target": "SC-13-B-EQUIPPED"
+        }
+      ],
+      "panelHeight": 307.6000061035156,
+      "scene": "5:9296",
+      "textCount": 27
+    },
+    {
+      "id": "SC-18",
+      "node": "5:9378",
+      "controls": [
+        {
+          "id": "5:9382",
+          "target": "SC-18"
+        },
+        {
+          "id": "5:9455",
+          "target": "BACK"
+        },
+        {
+          "id": "5:9457",
+          "target": "SC-RESET"
+        }
+      ],
+      "panelHeight": 365.6000061035156,
+      "scene": "5:9387",
+      "textCount": 21
+    },
+    {
+      "id": "SC-RESET",
+      "node": "5:9459",
+      "controls": [
+        {
+          "id": "5:9463",
+          "target": "SC-18"
+        },
+        {
+          "id": "5:9527",
+          "target": "SC-01"
+        },
+        {
+          "id": "5:9529",
+          "target": "BACK"
+        }
+      ],
+      "panelHeight": 278.6000061035156,
+      "scene": "5:9468",
+      "textCount": 15
+    },
+    {
+      "id": "SC-HELP-LOW",
+      "node": "12:5099",
+      "controls": [
+        {
+          "id": "12:5103",
+          "target": "SC-18"
+        },
+        {
+          "id": "12:5174",
+          "target": "SC-HELP-0"
+        },
+        {
+          "id": "12:5176",
+          "target": "BACK"
+        }
+      ],
+      "panelHeight": 372.6000061035156,
+      "scene": "12:5108",
+      "textCount": 30
+    },
+    {
+      "id": "SC-HELP-LOW__SC-03",
+      "node": "12:5194",
+      "controls": [
+        {
+          "id": "12:5198",
+          "target": "SC-18"
+        },
+        {
+          "id": "12:5269",
+          "target": "SC-HELP-0__SC-03"
+        },
+        {
+          "id": "12:5271",
+          "target": "SC-03"
+        }
+      ],
+      "panelHeight": 372.6000061035156,
+      "scene": "12:5203",
+      "textCount": 30
+    },
+    {
+      "id": "SC-HELP-LOW__SC-13-A",
+      "node": "12:5289",
+      "controls": [
+        {
+          "id": "12:5293",
+          "target": "SC-18"
+        },
+        {
+          "id": "12:5364",
+          "target": "SC-HELP-0__SC-13-A"
+        },
+        {
+          "id": "12:5366",
+          "target": "SC-13-A"
+        }
+      ],
+      "panelHeight": 372.6000061035156,
+      "scene": "12:5298",
+      "textCount": 30
+    },
+    {
+      "id": "SC-HELP-LOW__SC-13-A-OWNED",
+      "node": "12:5384",
+      "controls": [
+        {
+          "id": "12:5388",
+          "target": "SC-18"
+        },
+        {
+          "id": "12:5459",
+          "target": "SC-HELP-0__SC-13-A-OWNED"
+        },
+        {
+          "id": "12:5461",
+          "target": "SC-13-A-OWNED"
+        }
+      ],
+      "panelHeight": 372.6000061035156,
+      "scene": "12:5393",
+      "textCount": 30
+    },
+    {
+      "id": "SC-HELP-LOW__SC-13-A-EQUIPPED",
+      "node": "12:5479",
+      "controls": [
+        {
+          "id": "12:5483",
+          "target": "SC-18"
+        },
+        {
+          "id": "12:5554",
+          "target": "SC-HELP-0__SC-13-A-EQUIPPED"
+        },
+        {
+          "id": "12:5556",
+          "target": "SC-13-A-EQUIPPED"
+        }
+      ],
+      "panelHeight": 372.6000061035156,
+      "scene": "12:5488",
+      "textCount": 30
+    },
+    {
+      "id": "SC-HELP-LOW__SC-13-B",
+      "node": "12:5574",
+      "controls": [
+        {
+          "id": "12:5578",
+          "target": "SC-18"
+        },
+        {
+          "id": "12:5649",
+          "target": "SC-HELP-0__SC-13-B"
+        },
+        {
+          "id": "12:5651",
+          "target": "SC-13-B"
+        }
+      ],
+      "panelHeight": 372.6000061035156,
+      "scene": "12:5583",
+      "textCount": 30
+    },
+    {
+      "id": "SC-HELP-LOW__SC-13-B-OWNED",
+      "node": "12:5669",
+      "controls": [
+        {
+          "id": "12:5673",
+          "target": "SC-18"
+        },
+        {
+          "id": "12:5744",
+          "target": "SC-HELP-0__SC-13-B-OWNED"
+        },
+        {
+          "id": "12:5746",
+          "target": "SC-13-B-OWNED"
+        }
+      ],
+      "panelHeight": 372.6000061035156,
+      "scene": "12:5678",
+      "textCount": 30
+    },
+    {
+      "id": "SC-HELP-LOW__SC-13-B-EQUIPPED",
+      "node": "12:5764",
+      "controls": [
+        {
+          "id": "12:5768",
+          "target": "SC-18"
+        },
+        {
+          "id": "12:5839",
+          "target": "SC-HELP-0__SC-13-B-EQUIPPED"
+        },
+        {
+          "id": "12:5841",
+          "target": "SC-13-B-EQUIPPED"
+        }
+      ],
+      "panelHeight": 372.6000061035156,
+      "scene": "12:5773",
+      "textCount": 30
+    }
+  ],
+  "prototype": "https://www.figma.com/proto/KceyHEQvNCH8jigHOgqSRW?node-id=5-2&starting-point-node-id=5%3A2",
+  "validation": {
+    "date": "2026-11-03",
+    "frames": 110,
+    "navigationLinks": 344,
+    "missingTargets": 0,
+    "unreachableStates": 0
+  }
+}

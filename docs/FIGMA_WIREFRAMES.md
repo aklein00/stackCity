@@ -4,7 +4,7 @@
 
 This is the first production deliverable across both projects. Create native editable Figma UI, a flow map, and a connected prototype. WorldFarm is a separate file and follows this first pass.
 
-This document specifies future work; no Figma file or prototype URL exists yet.
+The first native Figma milestone is complete. See current coverage below; the inventory also records longer-term design intent.
 
 ## Working canvas
 
@@ -101,3 +101,12 @@ Readable contrast, text labels alongside icons, comfortably sized touch targets,
 - Wireframes work with placeholders before art arrives.
 - Share both a prototype link and an editor/file link with page/node references.
 - Record what is simulated, unfinished, and ready for review.
+
+
+## Delivered 2026-11-03
+
+[Editor](https://www.figma.com/design/KceyHEQvNCH8jigHOgqSRW) · [Prototype](https://www.figma.com/proto/KceyHEQvNCH8jigHOgqSRW?node-id=5-2&starting-point-node-id=5%3A2) · [Browser preview](https://stack-city-playable-week.aklein00.chatgpt.site)
+
+110 connected curated states, 344 navigation links, four named starts, 18 primary review screens and a compact-screen check. All states are reachable from named starts; no missing navigation targets. Native editable UI, shared variables and component variants are present. Figma uses explicit scenario snapshots; the browser implementation performs real in-memory transaction calculations.
+
+See [milestone limitations](MILESTONE_2026-11-03.md) and [asset sizes/camera rules](ASSET_CHECKLIST.md).

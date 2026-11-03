@@ -2,7 +2,7 @@
 
 ## Baseline
 
-2026-11-03. Pre-brief planning. Documentation is the only completed project artifact in this pass.
+Initial planning baseline, retained below. The 2026-11-03 milestone now includes working browser code and native Figma prototypes.
 
 ## Confirmed decisions
 
@@ -55,3 +55,12 @@ Platform/orientation; regional currency; learning objectives by age; narrative f
 ## Review history
 
 Append dates, changed decisions, reason, affected documents, and Figma links. Do not silently promote a proposal to a confirmed requirement.
+
+
+## 2026-11-03 implementation milestone
+
+Confirmed by owner: Three.js for both projects; no game-engine migration requirement; two new native Figma files in aklein personal; cube-led, slightly older environmental styling; concepts before detailed modeling; main-branch delivery.
+
+Completed: native Figma foundation/components/flows/prototype/handoff; browser playable week with both budget branches, cosmetics and separate hiring example. See [milestone recap](MILESTONE_2026-11-03.md) for validation and remaining work.
+
+The premise, educational approach and loop remain reviewable. Camera, palette, scenario amounts and specific architecture variants are provisional design decisions rather than owner-approved final direction.

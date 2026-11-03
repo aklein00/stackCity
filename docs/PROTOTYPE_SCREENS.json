@@ -1,0 +1,4225 @@
+[
+  {
+    "id": "SC-01",
+    "title": "Make room for what matters.",
+    "subtitle": "Choose a goal for this fictional week.",
+    "rows": [],
+    "buttons": [
+      [
+        "Music setup",
+        "SC-02",
+        "Music setup"
+      ],
+      [
+        "Creative project",
+        "SC-02",
+        "Creative project"
+      ],
+      [
+        "City weekend",
+        "SC-02",
+        "City weekend"
+      ]
+    ],
+    "state": [
+      500,
+      300,
+      80,
+      50,
+      70
+    ]
+  },
+  {
+    "id": "SC-02",
+    "title": "500 in cash. A plan for all of it.",
+    "subtitle": "Reserves are allocations within the same cash balance.",
+    "rows": [
+      [
+        "Cash balance",
+        "500"
+      ],
+      [
+        "Bills reserved",
+        "300"
+      ],
+      [
+        "Groceries reserved",
+        "80"
+      ],
+      [
+        "Goal reserved",
+        "50"
+      ],
+      [
+        "Available",
+        "70"
+      ]
+    ],
+    "buttons": [
+      [
+        "Explore the city",
+        "SC-03"
+      ],
+      [
+        "Choose another goal",
+        "SC-01"
+      ]
+    ],
+    "state": [
+      500,
+      300,
+      80,
+      50,
+      70
+    ]
+  },
+  {
+    "id": "SC-03",
+    "title": "Your neighborhood. Your next move.",
+    "subtitle": "Start with groceries. Bills and your goal stay protected.",
+    "rows": [
+      [
+        "Market",
+        "Compare two baskets"
+      ],
+      [
+        "Utilities",
+        "Visit after groceries"
+      ],
+      [
+        "Bank",
+        "Learning-locked · later chapter"
+      ]
+    ],
+    "buttons": [
+      [
+        "Visit market",
+        "SC-04"
+      ],
+      [
+        "Cosmetic store",
+        "SC-STORE-0"
+      ],
+      [
+        "Hire help demo",
+        "SC-HELP-0__SC-03"
+      ]
+    ],
+    "state": [
+      500,
+      300,
+      80,
+      50,
+      70
+    ]
+  },
+  {
+    "id": "SC-04",
+    "title": "The corner market",
+    "subtitle": "Both baskets cover the same household needs.",
+    "rows": [
+      [
+        "Expected cost",
+        "60–80"
+      ],
+      [
+        "Reserved",
+        "80"
+      ],
+      [
+        "Learning focus",
+        "Value and convenience"
+      ]
+    ],
+    "buttons": [
+      [
+        "Travel",
+        "SC-05"
+      ],
+      [
+        "Cancel",
+        "SC-03"
+      ]
+    ],
+    "state": [
+      500,
+      300,
+      80,
+      50,
+      70
+    ]
+  },
+  {
+    "id": "SC-05",
+    "title": "On your way to the market.",
+    "subtitle": "A short journey. No cash charge for travel in this demo.",
+    "rows": [
+      [
+        "Route",
+        "Home → Market"
+      ],
+      [
+        "Motion",
+        "Static route in Figma"
+      ]
+    ],
+    "buttons": [
+      [
+        "Skip / arrive",
+        "SC-06"
+      ],
+      [
+        "Return to city",
+        "SC-03"
+      ]
+    ],
+    "state": [
+      500,
+      300,
+      80,
+      50,
+      70
+    ]
+  },
+  {
+    "id": "SC-06",
+    "title": "Two baskets. One decision.",
+    "subtitle": "Four packs each of grains, protein and produce.",
+    "rows": [
+      [
+        "Pantry planner · 60",
+        "More preparation; store-brand staples"
+      ],
+      [
+        "Quick & convenient · 80",
+        "Prepared ingredients; favorite brands"
+      ]
+    ],
+    "buttons": [
+      [
+        "Choose pantry · 60",
+        "SC-07-A"
+      ],
+      [
+        "Choose convenience · 80",
+        "SC-07-B"
+      ],
+      [
+        "Back to city",
+        "SC-03"
+      ],
+      [
+        "Try incomplete basket",
+        "SC-EMPTY"
+      ]
+    ],
+    "state": [
+      500,
+      300,
+      80,
+      50,
+      70
+    ]
+  },
+  {
+    "id": "SC-EMPTY",
+    "title": "Choose a complete basket.",
+    "subtitle": "Nothing has been charged.",
+    "rows": [
+      [
+        "Missing",
+        "Grains, protein and produce"
+      ],
+      [
+        "Next step",
+        "Select one of the complete options"
+      ]
+    ],
+    "buttons": [
+      [
+        "Compare baskets",
+        "SC-06"
+      ],
+      [
+        "Return to city",
+        "SC-03"
+      ]
+    ],
+    "state": [
+      500,
+      300,
+      80,
+      50,
+      70
+    ]
+  },
+  {
+    "id": "SC-07-A",
+    "title": "Pantry planner",
+    "subtitle": "Review every consequence before confirming.",
+    "rows": [
+      [
+        "Grains · 4 × 5",
+        "20"
+      ],
+      [
+        "Protein · 4 × 6",
+        "24"
+      ],
+      [
+        "Produce · 4 × 4",
+        "16"
+      ],
+      [
+        "Cash after / available",
+        "440 / 90"
+      ]
+    ],
+    "buttons": [
+      [
+        "Confirm purchase · 60",
+        "SC-03-G-A"
+      ],
+      [
+        "Edit basket",
+        "SC-06"
+      ]
+    ],
+    "state": [
+      500,
+      300,
+      80,
+      50,
+      70
+    ],
+    "note": "Checkout releases the entire 80 grocery reserve. The bill and goal reserves remain."
+  },
+  {
+    "id": "SC-03-G-A",
+    "title": "Groceries sorted. What’s next?",
+    "subtitle": "Your purchase is recorded once.",
+    "rows": [
+      [
+        "Groceries paid",
+        "60"
+      ],
+      [
+        "Utility bill due",
+        "120"
+      ],
+      [
+        "Unpaid bill reserve",
+        "300"
+      ]
+    ],
+    "buttons": [
+      [
+        "Visit utilities",
+        "SC-04-U-A"
+      ],
+      [
+        "Review groceries",
+        "SC-G-DONE-A"
+      ]
+    ],
+    "state": [
+      440,
+      300,
+      0,
+      50,
+      90
+    ]
+  },
+  {
+    "id": "SC-G-DONE-A",
+    "title": "Purchase complete.",
+    "subtitle": "Returning here never repeats a charge.",
+    "rows": [
+      [
+        "Basket",
+        "60"
+      ],
+      [
+        "Cash now",
+        "440"
+      ],
+      [
+        "Grocery reserve",
+        "0"
+      ]
+    ],
+    "buttons": [
+      [
+        "Return to city",
+        "SC-03-G-A"
+      ]
+    ],
+    "state": [
+      440,
+      300,
+      0,
+      50,
+      90
+    ]
+  },
+  {
+    "id": "SC-04-U-A",
+    "title": "Utility service center",
+    "subtitle": "Understand the bill before paying.",
+    "rows": [
+      [
+        "Amount due",
+        "120"
+      ],
+      [
+        "Due",
+        "End of simulated week"
+      ],
+      [
+        "Reserved for bills",
+        "300"
+      ]
+    ],
+    "buttons": [
+      [
+        "Travel",
+        "SC-05-U-A"
+      ],
+      [
+        "Cancel",
+        "SC-03-G-A"
+      ]
+    ],
+    "state": [
+      440,
+      300,
+      0,
+      50,
+      90
+    ]
+  },
+  {
+    "id": "SC-05-U-A",
+    "title": "Next stop: utilities.",
+    "subtitle": "Short and skippable. No driving mechanics.",
+    "rows": [
+      [
+        "Route",
+        "Market → Utilities"
+      ]
+    ],
+    "buttons": [
+      [
+        "Skip / arrive",
+        "SC-08-A"
+      ],
+      [
+        "Return",
+        "SC-03-G-A"
+      ]
+    ],
+    "state": [
+      440,
+      300,
+      0,
+      50,
+      90
+    ]
+  },
+  {
+    "id": "SC-08-A",
+    "title": "Keep the lights on.",
+    "subtitle": "Pay from the money already reserved.",
+    "rows": [
+      [
+        "Usage · 100 units × 1",
+        "100"
+      ],
+      [
+        "Service charge",
+        "20"
+      ],
+      [
+        "Total due",
+        "120"
+      ],
+      [
+        "Cash after",
+        "320"
+      ],
+      [
+        "Bills still reserved",
+        "180"
+      ]
+    ],
+    "buttons": [
+      [
+        "Confirm payment · 120",
+        "SC-U-DONE-A"
+      ],
+      [
+        "Back to city",
+        "SC-03-G-A"
+      ]
+    ],
+    "state": [
+      440,
+      300,
+      0,
+      50,
+      90
+    ],
+    "note": "Cash and unpaid-bill reserve fall together. Available cash stays 90."
+  },
+  {
+    "id": "SC-U-DONE-A",
+    "title": "One commitment taken care of.",
+    "subtitle": "The remaining 180 of bills are still unpaid.",
+    "rows": [
+      [
+        "Paid utility",
+        "120"
+      ],
+      [
+        "Available",
+        "90"
+      ],
+      [
+        "Garage message",
+        "A repair is needed"
+      ]
+    ],
+    "buttons": [
+      [
+        "Review the repair",
+        "SC-09-A"
+      ]
+    ],
+    "state": [
+      320,
+      180,
+      0,
+      50,
+      90
+    ]
+  },
+  {
+    "id": "SC-09-A",
+    "title": "A repair wasn’t in the plan.",
+    "subtitle": "The simulation’s car needs a repair.",
+    "rows": [
+      [
+        "Repair quote",
+        "90"
+      ],
+      [
+        "Available now",
+        "90"
+      ],
+      [
+        "Shortfall",
+        "0"
+      ]
+    ],
+    "buttons": [
+      [
+        "Confirm repair · 90",
+        "SC-11-A"
+      ],
+      [
+        "Return",
+        "SC-U-DONE-A"
+      ]
+    ],
+    "state": [
+      320,
+      180,
+      0,
+      50,
+      90
+    ],
+    "note": "Your goal and bills remain protected.",
+    "warning": false
+  },
+  {
+    "id": "SC-11-A",
+    "title": "You made a plan. Then adapted.",
+    "subtitle": "Your lower-cost basket preserved the goal.",
+    "rows": [
+      [
+        "Groceries paid",
+        "60"
+      ],
+      [
+        "Utility paid",
+        "120"
+      ],
+      [
+        "Repair paid",
+        "90"
+      ],
+      [
+        "Cash remaining",
+        "230"
+      ],
+      [
+        "Unpaid bills reserved / goal",
+        "180 / 50"
+      ]
+    ],
+    "buttons": [
+      [
+        "Reflect & continue",
+        "SC-12-A"
+      ]
+    ],
+    "state": [
+      230,
+      180,
+      0,
+      50,
+      0
+    ]
+  },
+  {
+    "id": "SC-12-A",
+    "title": "Planning is a skill you can grow.",
+    "subtitle": "You compared options, protected commitments and adapted.",
+    "rows": [
+      [
+        "Demo reward",
+        "100 Style Coins + 5 Gems"
+      ],
+      [
+        "Learning unlock",
+        "Community activity"
+      ],
+      [
+        "Learning progress",
+        "Nonspendable · not validated mastery"
+      ]
+    ],
+    "buttons": [
+      [
+        "Collect once & return",
+        "SC-13-A"
+      ]
+    ],
+    "state": [
+      230,
+      180,
+      0,
+      50,
+      0
+    ],
+    "note": "A curated chapter demonstrates an approach; it does not prove learning transfer."
+  },
+  {
+    "id": "SC-13-A",
+    "title": "A little more connected.",
+    "subtitle": "Same neighborhood, camera and composition.",
+    "rows": [
+      [
+        "Milestone",
+        "Community activity unlocked"
+      ],
+      [
+        "Car decal",
+        "Available for 60 Style Coins"
+      ]
+    ],
+    "buttons": [
+      [
+        "Cosmetic store",
+        "SC-STORE-A"
+      ],
+      [
+        "Review my week",
+        "SC-OUTCOME-A"
+      ],
+      [
+        "Hire help demo",
+        "SC-HELP-0__SC-13-A"
+      ]
+    ],
+    "state": [
+      230,
+      180,
+      0,
+      50,
+      0
+    ],
+    "coins": 100,
+    "gems": 5,
+    "stage": "Connected"
+  },
+  {
+    "id": "SC-OUTCOME-A",
+    "title": "Your completed week.",
+    "subtitle": "Transactions stay committed when navigating Back.",
+    "rows": [
+      [
+        "Groceries",
+        "60"
+      ],
+      [
+        "Utility / repair",
+        "120 / 90"
+      ],
+      [
+        "Cash / unpaid bills / goal",
+        "230 / 180 / 50"
+      ]
+    ],
+    "buttons": [
+      [
+        "Return to city",
+        "SC-13-A"
+      ]
+    ],
+    "state": [
+      230,
+      180,
+      0,
+      50,
+      0
+    ],
+    "coins": 100,
+    "gems": 5,
+    "stage": "Connected"
+  },
+  {
+    "id": "SC-STORE-A",
+    "title": "Make it feel like yours.",
+    "subtitle": "Cosmetic currencies cannot fund lesson expenses.",
+    "rows": [
+      [
+        "Sunstripe decal",
+        "60 Style Coins · affordable"
+      ],
+      [
+        "Midnight paint",
+        "10 Gems · 5 short"
+      ],
+      [
+        "Neighborhood mural",
+        "Learning-locked"
+      ]
+    ],
+    "buttons": [
+      [
+        "Preview decal",
+        "SC-ITEM-A"
+      ],
+      [
+        "Preview paint",
+        "SC-PAINT-A"
+      ],
+      [
+        "Return to city",
+        "SC-13-A"
+      ]
+    ],
+    "state": [
+      230,
+      180,
+      0,
+      50,
+      0
+    ],
+    "coins": 100,
+    "gems": 5,
+    "stage": "Connected"
+  },
+  {
+    "id": "SC-ITEM-A",
+    "title": "Sunstripe decal",
+    "subtitle": "A cream stripe for your neighborhood car.",
+    "rows": [
+      [
+        "Price",
+        "60 Style Coins"
+      ],
+      [
+        "Balance",
+        "100"
+      ],
+      [
+        "After purchase",
+        "40 Style Coins"
+      ]
+    ],
+    "buttons": [
+      [
+        "Confirm purchase",
+        "SC-ITEM-A-OWNED"
+      ],
+      [
+        "Cancel / store",
+        "SC-STORE-A"
+      ]
+    ],
+    "state": [
+      230,
+      180,
+      0,
+      50,
+      0
+    ],
+    "coins": 100,
+    "gems": 5,
+    "stage": "Connected"
+  },
+  {
+    "id": "SC-PAINT-A",
+    "title": "Midnight paint",
+    "subtitle": "Preview only: insufficient Gems.",
+    "rows": [
+      [
+        "Price",
+        "10 Gems"
+      ],
+      [
+        "Balance",
+        "5 Gems"
+      ],
+      [
+        "Shortfall",
+        "5 Gems"
+      ]
+    ],
+    "buttons": [
+      [
+        "Back to store",
+        "SC-STORE-A"
+      ]
+    ],
+    "state": [
+      230,
+      180,
+      0,
+      50,
+      0
+    ],
+    "coins": 100,
+    "gems": 5,
+    "stage": "Connected",
+    "warning": true,
+    "note": "No real-money checkout. Cash, learning progress and Style Coins cannot cover this purchase."
+  },
+  {
+    "id": "SC-13-A-OWNED",
+    "title": "A little more connected.",
+    "subtitle": "Same neighborhood, camera and composition.",
+    "rows": [
+      [
+        "Milestone",
+        "Community activity unlocked"
+      ],
+      [
+        "Car decal",
+        "Owned"
+      ]
+    ],
+    "buttons": [
+      [
+        "Cosmetic store",
+        "SC-STORE-A-OWNED"
+      ],
+      [
+        "Review my week",
+        "SC-OUTCOME-A-OWNED"
+      ],
+      [
+        "Hire help demo",
+        "SC-HELP-0__SC-13-A-OWNED"
+      ]
+    ],
+    "state": [
+      230,
+      180,
+      0,
+      50,
+      0
+    ],
+    "coins": 40,
+    "gems": 5,
+    "stage": "Connected"
+  },
+  {
+    "id": "SC-OUTCOME-A-OWNED",
+    "title": "Your completed week.",
+    "subtitle": "Transactions stay committed when navigating Back.",
+    "rows": [
+      [
+        "Groceries",
+        "60"
+      ],
+      [
+        "Utility / repair",
+        "120 / 90"
+      ],
+      [
+        "Cash / unpaid bills / goal",
+        "230 / 180 / 50"
+      ]
+    ],
+    "buttons": [
+      [
+        "Return to city",
+        "SC-13-A-OWNED"
+      ]
+    ],
+    "state": [
+      230,
+      180,
+      0,
+      50,
+      0
+    ],
+    "coins": 40,
+    "gems": 5,
+    "stage": "Connected"
+  },
+  {
+    "id": "SC-STORE-A-OWNED",
+    "title": "Make it feel like yours.",
+    "subtitle": "Cosmetic currencies cannot fund lesson expenses.",
+    "rows": [
+      [
+        "Sunstripe decal",
+        "60 Style Coins · owned"
+      ],
+      [
+        "Midnight paint",
+        "10 Gems · 5 short"
+      ],
+      [
+        "Neighborhood mural",
+        "Learning-locked"
+      ]
+    ],
+    "buttons": [
+      [
+        "Preview decal",
+        "SC-ITEM-A-OWNED"
+      ],
+      [
+        "Preview paint",
+        "SC-PAINT-A-OWNED"
+      ],
+      [
+        "Return to city",
+        "SC-13-A-OWNED"
+      ]
+    ],
+    "state": [
+      230,
+      180,
+      0,
+      50,
+      0
+    ],
+    "coins": 40,
+    "gems": 5,
+    "stage": "Connected"
+  },
+  {
+    "id": "SC-ITEM-A-OWNED",
+    "title": "Sunstripe decal",
+    "subtitle": "Owned. Ready to equip.",
+    "rows": [
+      [
+        "Price",
+        "60 Style Coins"
+      ],
+      [
+        "Balance",
+        "40"
+      ],
+      [
+        "After purchase",
+        "Already owned"
+      ]
+    ],
+    "buttons": [
+      [
+        "Equip",
+        "SC-13-A-EQUIPPED"
+      ],
+      [
+        "Cancel / store",
+        "SC-STORE-A-OWNED"
+      ]
+    ],
+    "state": [
+      230,
+      180,
+      0,
+      50,
+      0
+    ],
+    "coins": 40,
+    "gems": 5,
+    "stage": "Connected"
+  },
+  {
+    "id": "SC-PAINT-A-OWNED",
+    "title": "Midnight paint",
+    "subtitle": "Preview only: insufficient Gems.",
+    "rows": [
+      [
+        "Price",
+        "10 Gems"
+      ],
+      [
+        "Balance",
+        "5 Gems"
+      ],
+      [
+        "Shortfall",
+        "5 Gems"
+      ]
+    ],
+    "buttons": [
+      [
+        "Back to store",
+        "SC-STORE-A-OWNED"
+      ]
+    ],
+    "state": [
+      230,
+      180,
+      0,
+      50,
+      0
+    ],
+    "coins": 40,
+    "gems": 5,
+    "stage": "Connected",
+    "warning": true,
+    "note": "No real-money checkout. Cash, learning progress and Style Coins cannot cover this purchase."
+  },
+  {
+    "id": "SC-13-A-EQUIPPED",
+    "title": "Your city. Your expression.",
+    "subtitle": "Same neighborhood, camera and composition.",
+    "rows": [
+      [
+        "Milestone",
+        "Community activity unlocked"
+      ],
+      [
+        "Car decal",
+        "Equipped"
+      ]
+    ],
+    "buttons": [
+      [
+        "Cosmetic store",
+        "SC-STORE-A-EQUIPPED"
+      ],
+      [
+        "Review my week",
+        "SC-OUTCOME-A-EQUIPPED"
+      ],
+      [
+        "Hire help demo",
+        "SC-HELP-0__SC-13-A-EQUIPPED"
+      ]
+    ],
+    "state": [
+      230,
+      180,
+      0,
+      50,
+      0
+    ],
+    "coins": 40,
+    "gems": 5,
+    "stage": "Personalized"
+  },
+  {
+    "id": "SC-OUTCOME-A-EQUIPPED",
+    "title": "Your completed week.",
+    "subtitle": "Transactions stay committed when navigating Back.",
+    "rows": [
+      [
+        "Groceries",
+        "60"
+      ],
+      [
+        "Utility / repair",
+        "120 / 90"
+      ],
+      [
+        "Cash / unpaid bills / goal",
+        "230 / 180 / 50"
+      ]
+    ],
+    "buttons": [
+      [
+        "Return to city",
+        "SC-13-A-EQUIPPED"
+      ]
+    ],
+    "state": [
+      230,
+      180,
+      0,
+      50,
+      0
+    ],
+    "coins": 40,
+    "gems": 5,
+    "stage": "Personalized"
+  },
+  {
+    "id": "SC-STORE-A-EQUIPPED",
+    "title": "Make it feel like yours.",
+    "subtitle": "Cosmetic currencies cannot fund lesson expenses.",
+    "rows": [
+      [
+        "Sunstripe decal",
+        "60 Style Coins · equipped"
+      ],
+      [
+        "Midnight paint",
+        "10 Gems · 5 short"
+      ],
+      [
+        "Neighborhood mural",
+        "Learning-locked"
+      ]
+    ],
+    "buttons": [
+      [
+        "Preview decal",
+        "SC-ITEM-A-EQUIPPED"
+      ],
+      [
+        "Preview paint",
+        "SC-PAINT-A-EQUIPPED"
+      ],
+      [
+        "Return to city",
+        "SC-13-A-EQUIPPED"
+      ]
+    ],
+    "state": [
+      230,
+      180,
+      0,
+      50,
+      0
+    ],
+    "coins": 40,
+    "gems": 5,
+    "stage": "Personalized"
+  },
+  {
+    "id": "SC-ITEM-A-EQUIPPED",
+    "title": "Sunstripe decal",
+    "subtitle": "Equipped on your car.",
+    "rows": [
+      [
+        "Price",
+        "60 Style Coins"
+      ],
+      [
+        "Balance",
+        "40"
+      ],
+      [
+        "After purchase",
+        "Already owned"
+      ]
+    ],
+    "buttons": [
+      [
+        "Keep equipped",
+        "SC-13-A-EQUIPPED"
+      ],
+      [
+        "Cancel / store",
+        "SC-STORE-A-EQUIPPED"
+      ]
+    ],
+    "state": [
+      230,
+      180,
+      0,
+      50,
+      0
+    ],
+    "coins": 40,
+    "gems": 5,
+    "stage": "Personalized"
+  },
+  {
+    "id": "SC-PAINT-A-EQUIPPED",
+    "title": "Midnight paint",
+    "subtitle": "Preview only: insufficient Gems.",
+    "rows": [
+      [
+        "Price",
+        "10 Gems"
+      ],
+      [
+        "Balance",
+        "5 Gems"
+      ],
+      [
+        "Shortfall",
+        "5 Gems"
+      ]
+    ],
+    "buttons": [
+      [
+        "Back to store",
+        "SC-STORE-A-EQUIPPED"
+      ]
+    ],
+    "state": [
+      230,
+      180,
+      0,
+      50,
+      0
+    ],
+    "coins": 40,
+    "gems": 5,
+    "stage": "Personalized",
+    "warning": true,
+    "note": "No real-money checkout. Cash, learning progress and Style Coins cannot cover this purchase."
+  },
+  {
+    "id": "SC-07-B",
+    "title": "Quick & convenient",
+    "subtitle": "Review every consequence before confirming.",
+    "rows": [
+      [
+        "Grains · 4 × 6",
+        "24"
+      ],
+      [
+        "Protein · 4 × 8",
+        "32"
+      ],
+      [
+        "Produce · 4 × 6",
+        "24"
+      ],
+      [
+        "Cash after / available",
+        "420 / 70"
+      ]
+    ],
+    "buttons": [
+      [
+        "Confirm purchase · 80",
+        "SC-03-G-B"
+      ],
+      [
+        "Edit basket",
+        "SC-06"
+      ]
+    ],
+    "state": [
+      500,
+      300,
+      80,
+      50,
+      70
+    ],
+    "note": "Checkout releases the entire 80 grocery reserve. The bill and goal reserves remain."
+  },
+  {
+    "id": "SC-03-G-B",
+    "title": "Groceries sorted. What’s next?",
+    "subtitle": "Your purchase is recorded once.",
+    "rows": [
+      [
+        "Groceries paid",
+        "80"
+      ],
+      [
+        "Utility bill due",
+        "120"
+      ],
+      [
+        "Unpaid bill reserve",
+        "300"
+      ]
+    ],
+    "buttons": [
+      [
+        "Visit utilities",
+        "SC-04-U-B"
+      ],
+      [
+        "Review groceries",
+        "SC-G-DONE-B"
+      ]
+    ],
+    "state": [
+      420,
+      300,
+      0,
+      50,
+      70
+    ]
+  },
+  {
+    "id": "SC-G-DONE-B",
+    "title": "Purchase complete.",
+    "subtitle": "Returning here never repeats a charge.",
+    "rows": [
+      [
+        "Basket",
+        "80"
+      ],
+      [
+        "Cash now",
+        "420"
+      ],
+      [
+        "Grocery reserve",
+        "0"
+      ]
+    ],
+    "buttons": [
+      [
+        "Return to city",
+        "SC-03-G-B"
+      ]
+    ],
+    "state": [
+      420,
+      300,
+      0,
+      50,
+      70
+    ]
+  },
+  {
+    "id": "SC-04-U-B",
+    "title": "Utility service center",
+    "subtitle": "Understand the bill before paying.",
+    "rows": [
+      [
+        "Amount due",
+        "120"
+      ],
+      [
+        "Due",
+        "End of simulated week"
+      ],
+      [
+        "Reserved for bills",
+        "300"
+      ]
+    ],
+    "buttons": [
+      [
+        "Travel",
+        "SC-05-U-B"
+      ],
+      [
+        "Cancel",
+        "SC-03-G-B"
+      ]
+    ],
+    "state": [
+      420,
+      300,
+      0,
+      50,
+      70
+    ]
+  },
+  {
+    "id": "SC-05-U-B",
+    "title": "Next stop: utilities.",
+    "subtitle": "Short and skippable. No driving mechanics.",
+    "rows": [
+      [
+        "Route",
+        "Market → Utilities"
+      ]
+    ],
+    "buttons": [
+      [
+        "Skip / arrive",
+        "SC-08-B"
+      ],
+      [
+        "Return",
+        "SC-03-G-B"
+      ]
+    ],
+    "state": [
+      420,
+      300,
+      0,
+      50,
+      70
+    ]
+  },
+  {
+    "id": "SC-08-B",
+    "title": "Keep the lights on.",
+    "subtitle": "Pay from the money already reserved.",
+    "rows": [
+      [
+        "Usage · 100 units × 1",
+        "100"
+      ],
+      [
+        "Service charge",
+        "20"
+      ],
+      [
+        "Total due",
+        "120"
+      ],
+      [
+        "Cash after",
+        "300"
+      ],
+      [
+        "Bills still reserved",
+        "180"
+      ]
+    ],
+    "buttons": [
+      [
+        "Confirm payment · 120",
+        "SC-U-DONE-B"
+      ],
+      [
+        "Back to city",
+        "SC-03-G-B"
+      ]
+    ],
+    "state": [
+      420,
+      300,
+      0,
+      50,
+      70
+    ],
+    "note": "Cash and unpaid-bill reserve fall together. Available cash stays 70."
+  },
+  {
+    "id": "SC-U-DONE-B",
+    "title": "One commitment taken care of.",
+    "subtitle": "The remaining 180 of bills are still unpaid.",
+    "rows": [
+      [
+        "Paid utility",
+        "120"
+      ],
+      [
+        "Available",
+        "70"
+      ],
+      [
+        "Garage message",
+        "A repair is needed"
+      ]
+    ],
+    "buttons": [
+      [
+        "Review the repair",
+        "SC-09-B"
+      ]
+    ],
+    "state": [
+      300,
+      180,
+      0,
+      50,
+      70
+    ]
+  },
+  {
+    "id": "SC-09-B",
+    "title": "A repair wasn’t in the plan.",
+    "subtitle": "The simulation’s car needs a repair.",
+    "rows": [
+      [
+        "Repair quote",
+        "90"
+      ],
+      [
+        "Available now",
+        "70"
+      ],
+      [
+        "Shortfall",
+        "20"
+      ]
+    ],
+    "buttons": [
+      [
+        "Adjust my plan",
+        "SC-10-B"
+      ],
+      [
+        "Return",
+        "SC-U-DONE-B"
+      ]
+    ],
+    "state": [
+      300,
+      180,
+      0,
+      50,
+      70
+    ],
+    "note": "Nothing has been charged. Revise the plan before paying.",
+    "warning": true
+  },
+  {
+    "id": "SC-10-B",
+    "title": "A different pace. The same goal.",
+    "subtitle": "Make room for the surprise without touching bill money.",
+    "rows": [
+      [
+        "Goal allocation",
+        "50 → 30"
+      ],
+      [
+        "Cash balance",
+        "300 → 300"
+      ],
+      [
+        "Available",
+        "70 → 90"
+      ],
+      [
+        "After paying repair",
+        "0 available"
+      ]
+    ],
+    "buttons": [
+      [
+        "Confirm revised plan",
+        "SC-09-B-READY"
+      ],
+      [
+        "Keep current plan",
+        "SC-09-B"
+      ]
+    ],
+    "state": [
+      300,
+      180,
+      0,
+      50,
+      70
+    ]
+  },
+  {
+    "id": "SC-09-B-READY",
+    "title": "Ready to cover the repair.",
+    "subtitle": "The allocation changed. Your cash did not.",
+    "rows": [
+      [
+        "Repair",
+        "90"
+      ],
+      [
+        "Available",
+        "90"
+      ],
+      [
+        "Cash after / goal",
+        "210 / 30"
+      ]
+    ],
+    "buttons": [
+      [
+        "Confirm repair · 90",
+        "SC-11-B"
+      ],
+      [
+        "Review revised plan",
+        "SC-10-B"
+      ]
+    ],
+    "state": [
+      300,
+      180,
+      0,
+      30,
+      90
+    ]
+  },
+  {
+    "id": "SC-11-B",
+    "title": "You made a plan. Then adapted.",
+    "subtitle": "Convenience changed the pace of your goal.",
+    "rows": [
+      [
+        "Groceries paid",
+        "80"
+      ],
+      [
+        "Utility paid",
+        "120"
+      ],
+      [
+        "Repair paid",
+        "90"
+      ],
+      [
+        "Cash remaining",
+        "210"
+      ],
+      [
+        "Unpaid bills reserved / goal",
+        "180 / 30"
+      ]
+    ],
+    "buttons": [
+      [
+        "Reflect & continue",
+        "SC-12-B"
+      ]
+    ],
+    "state": [
+      210,
+      180,
+      0,
+      30,
+      0
+    ]
+  },
+  {
+    "id": "SC-12-B",
+    "title": "Planning is a skill you can grow.",
+    "subtitle": "You compared options, protected commitments and adapted.",
+    "rows": [
+      [
+        "Demo reward",
+        "100 Style Coins + 5 Gems"
+      ],
+      [
+        "Learning unlock",
+        "Community activity"
+      ],
+      [
+        "Learning progress",
+        "Nonspendable · not validated mastery"
+      ]
+    ],
+    "buttons": [
+      [
+        "Collect once & return",
+        "SC-13-B"
+      ]
+    ],
+    "state": [
+      210,
+      180,
+      0,
+      30,
+      0
+    ],
+    "note": "A curated chapter demonstrates an approach; it does not prove learning transfer."
+  },
+  {
+    "id": "SC-13-B",
+    "title": "A little more connected.",
+    "subtitle": "Same neighborhood, camera and composition.",
+    "rows": [
+      [
+        "Milestone",
+        "Community activity unlocked"
+      ],
+      [
+        "Car decal",
+        "Available for 60 Style Coins"
+      ]
+    ],
+    "buttons": [
+      [
+        "Cosmetic store",
+        "SC-STORE-B"
+      ],
+      [
+        "Review my week",
+        "SC-OUTCOME-B"
+      ],
+      [
+        "Hire help demo",
+        "SC-HELP-0__SC-13-B"
+      ]
+    ],
+    "state": [
+      210,
+      180,
+      0,
+      30,
+      0
+    ],
+    "coins": 100,
+    "gems": 5,
+    "stage": "Connected"
+  },
+  {
+    "id": "SC-OUTCOME-B",
+    "title": "Your completed week.",
+    "subtitle": "Transactions stay committed when navigating Back.",
+    "rows": [
+      [
+        "Groceries",
+        "80"
+      ],
+      [
+        "Utility / repair",
+        "120 / 90"
+      ],
+      [
+        "Cash / unpaid bills / goal",
+        "210 / 180 / 30"
+      ]
+    ],
+    "buttons": [
+      [
+        "Return to city",
+        "SC-13-B"
+      ]
+    ],
+    "state": [
+      210,
+      180,
+      0,
+      30,
+      0
+    ],
+    "coins": 100,
+    "gems": 5,
+    "stage": "Connected"
+  },
+  {
+    "id": "SC-STORE-B",
+    "title": "Make it feel like yours.",
+    "subtitle": "Cosmetic currencies cannot fund lesson expenses.",
+    "rows": [
+      [
+        "Sunstripe decal",
+        "60 Style Coins · affordable"
+      ],
+      [
+        "Midnight paint",
+        "10 Gems · 5 short"
+      ],
+      [
+        "Neighborhood mural",
+        "Learning-locked"
+      ]
+    ],
+    "buttons": [
+      [
+        "Preview decal",
+        "SC-ITEM-B"
+      ],
+      [
+        "Preview paint",
+        "SC-PAINT-B"
+      ],
+      [
+        "Return to city",
+        "SC-13-B"
+      ]
+    ],
+    "state": [
+      210,
+      180,
+      0,
+      30,
+      0
+    ],
+    "coins": 100,
+    "gems": 5,
+    "stage": "Connected"
+  },
+  {
+    "id": "SC-ITEM-B",
+    "title": "Sunstripe decal",
+    "subtitle": "A cream stripe for your neighborhood car.",
+    "rows": [
+      [
+        "Price",
+        "60 Style Coins"
+      ],
+      [
+        "Balance",
+        "100"
+      ],
+      [
+        "After purchase",
+        "40 Style Coins"
+      ]
+    ],
+    "buttons": [
+      [
+        "Confirm purchase",
+        "SC-ITEM-B-OWNED"
+      ],
+      [
+        "Cancel / store",
+        "SC-STORE-B"
+      ]
+    ],
+    "state": [
+      210,
+      180,
+      0,
+      30,
+      0
+    ],
+    "coins": 100,
+    "gems": 5,
+    "stage": "Connected"
+  },
+  {
+    "id": "SC-PAINT-B",
+    "title": "Midnight paint",
+    "subtitle": "Preview only: insufficient Gems.",
+    "rows": [
+      [
+        "Price",
+        "10 Gems"
+      ],
+      [
+        "Balance",
+        "5 Gems"
+      ],
+      [
+        "Shortfall",
+        "5 Gems"
+      ]
+    ],
+    "buttons": [
+      [
+        "Back to store",
+        "SC-STORE-B"
+      ]
+    ],
+    "state": [
+      210,
+      180,
+      0,
+      30,
+      0
+    ],
+    "coins": 100,
+    "gems": 5,
+    "stage": "Connected",
+    "warning": true,
+    "note": "No real-money checkout. Cash, learning progress and Style Coins cannot cover this purchase."
+  },
+  {
+    "id": "SC-13-B-OWNED",
+    "title": "A little more connected.",
+    "subtitle": "Same neighborhood, camera and composition.",
+    "rows": [
+      [
+        "Milestone",
+        "Community activity unlocked"
+      ],
+      [
+        "Car decal",
+        "Owned"
+      ]
+    ],
+    "buttons": [
+      [
+        "Cosmetic store",
+        "SC-STORE-B-OWNED"
+      ],
+      [
+        "Review my week",
+        "SC-OUTCOME-B-OWNED"
+      ],
+      [
+        "Hire help demo",
+        "SC-HELP-0__SC-13-B-OWNED"
+      ]
+    ],
+    "state": [
+      210,
+      180,
+      0,
+      30,
+      0
+    ],
+    "coins": 40,
+    "gems": 5,
+    "stage": "Connected"
+  },
+  {
+    "id": "SC-OUTCOME-B-OWNED",
+    "title": "Your completed week.",
+    "subtitle": "Transactions stay committed when navigating Back.",
+    "rows": [
+      [
+        "Groceries",
+        "80"
+      ],
+      [
+        "Utility / repair",
+        "120 / 90"
+      ],
+      [
+        "Cash / unpaid bills / goal",
+        "210 / 180 / 30"
+      ]
+    ],
+    "buttons": [
+      [
+        "Return to city",
+        "SC-13-B-OWNED"
+      ]
+    ],
+    "state": [
+      210,
+      180,
+      0,
+      30,
+      0
+    ],
+    "coins": 40,
+    "gems": 5,
+    "stage": "Connected"
+  },
+  {
+    "id": "SC-STORE-B-OWNED",
+    "title": "Make it feel like yours.",
+    "subtitle": "Cosmetic currencies cannot fund lesson expenses.",
+    "rows": [
+      [
+        "Sunstripe decal",
+        "60 Style Coins · owned"
+      ],
+      [
+        "Midnight paint",
+        "10 Gems · 5 short"
+      ],
+      [
+        "Neighborhood mural",
+        "Learning-locked"
+      ]
+    ],
+    "buttons": [
+      [
+        "Preview decal",
+        "SC-ITEM-B-OWNED"
+      ],
+      [
+        "Preview paint",
+        "SC-PAINT-B-OWNED"
+      ],
+      [
+        "Return to city",
+        "SC-13-B-OWNED"
+      ]
+    ],
+    "state": [
+      210,
+      180,
+      0,
+      30,
+      0
+    ],
+    "coins": 40,
+    "gems": 5,
+    "stage": "Connected"
+  },
+  {
+    "id": "SC-ITEM-B-OWNED",
+    "title": "Sunstripe decal",
+    "subtitle": "Owned. Ready to equip.",
+    "rows": [
+      [
+        "Price",
+        "60 Style Coins"
+      ],
+      [
+        "Balance",
+        "40"
+      ],
+      [
+        "After purchase",
+        "Already owned"
+      ]
+    ],
+    "buttons": [
+      [
+        "Equip",
+        "SC-13-B-EQUIPPED"
+      ],
+      [
+        "Cancel / store",
+        "SC-STORE-B-OWNED"
+      ]
+    ],
+    "state": [
+      210,
+      180,
+      0,
+      30,
+      0
+    ],
+    "coins": 40,
+    "gems": 5,
+    "stage": "Connected"
+  },
+  {
+    "id": "SC-PAINT-B-OWNED",
+    "title": "Midnight paint",
+    "subtitle": "Preview only: insufficient Gems.",
+    "rows": [
+      [
+        "Price",
+        "10 Gems"
+      ],
+      [
+        "Balance",
+        "5 Gems"
+      ],
+      [
+        "Shortfall",
+        "5 Gems"
+      ]
+    ],
+    "buttons": [
+      [
+        "Back to store",
+        "SC-STORE-B-OWNED"
+      ]
+    ],
+    "state": [
+      210,
+      180,
+      0,
+      30,
+      0
+    ],
+    "coins": 40,
+    "gems": 5,
+    "stage": "Connected",
+    "warning": true,
+    "note": "No real-money checkout. Cash, learning progress and Style Coins cannot cover this purchase."
+  },
+  {
+    "id": "SC-13-B-EQUIPPED",
+    "title": "Your city. Your expression.",
+    "subtitle": "Same neighborhood, camera and composition.",
+    "rows": [
+      [
+        "Milestone",
+        "Community activity unlocked"
+      ],
+      [
+        "Car decal",
+        "Equipped"
+      ]
+    ],
+    "buttons": [
+      [
+        "Cosmetic store",
+        "SC-STORE-B-EQUIPPED"
+      ],
+      [
+        "Review my week",
+        "SC-OUTCOME-B-EQUIPPED"
+      ],
+      [
+        "Hire help demo",
+        "SC-HELP-0__SC-13-B-EQUIPPED"
+      ]
+    ],
+    "state": [
+      210,
+      180,
+      0,
+      30,
+      0
+    ],
+    "coins": 40,
+    "gems": 5,
+    "stage": "Personalized"
+  },
+  {
+    "id": "SC-OUTCOME-B-EQUIPPED",
+    "title": "Your completed week.",
+    "subtitle": "Transactions stay committed when navigating Back.",
+    "rows": [
+      [
+        "Groceries",
+        "80"
+      ],
+      [
+        "Utility / repair",
+        "120 / 90"
+      ],
+      [
+        "Cash / unpaid bills / goal",
+        "210 / 180 / 30"
+      ]
+    ],
+    "buttons": [
+      [
+        "Return to city",
+        "SC-13-B-EQUIPPED"
+      ]
+    ],
+    "state": [
+      210,
+      180,
+      0,
+      30,
+      0
+    ],
+    "coins": 40,
+    "gems": 5,
+    "stage": "Personalized"
+  },
+  {
+    "id": "SC-STORE-B-EQUIPPED",
+    "title": "Make it feel like yours.",
+    "subtitle": "Cosmetic currencies cannot fund lesson expenses.",
+    "rows": [
+      [
+        "Sunstripe decal",
+        "60 Style Coins · equipped"
+      ],
+      [
+        "Midnight paint",
+        "10 Gems · 5 short"
+      ],
+      [
+        "Neighborhood mural",
+        "Learning-locked"
+      ]
+    ],
+    "buttons": [
+      [
+        "Preview decal",
+        "SC-ITEM-B-EQUIPPED"
+      ],
+      [
+        "Preview paint",
+        "SC-PAINT-B-EQUIPPED"
+      ],
+      [
+        "Return to city",
+        "SC-13-B-EQUIPPED"
+      ]
+    ],
+    "state": [
+      210,
+      180,
+      0,
+      30,
+      0
+    ],
+    "coins": 40,
+    "gems": 5,
+    "stage": "Personalized"
+  },
+  {
+    "id": "SC-ITEM-B-EQUIPPED",
+    "title": "Sunstripe decal",
+    "subtitle": "Equipped on your car.",
+    "rows": [
+      [
+        "Price",
+        "60 Style Coins"
+      ],
+      [
+        "Balance",
+        "40"
+      ],
+      [
+        "After purchase",
+        "Already owned"
+      ]
+    ],
+    "buttons": [
+      [
+        "Keep equipped",
+        "SC-13-B-EQUIPPED"
+      ],
+      [
+        "Cancel / store",
+        "SC-STORE-B-EQUIPPED"
+      ]
+    ],
+    "state": [
+      210,
+      180,
+      0,
+      30,
+      0
+    ],
+    "coins": 40,
+    "gems": 5,
+    "stage": "Personalized"
+  },
+  {
+    "id": "SC-PAINT-B-EQUIPPED",
+    "title": "Midnight paint",
+    "subtitle": "Preview only: insufficient Gems.",
+    "rows": [
+      [
+        "Price",
+        "10 Gems"
+      ],
+      [
+        "Balance",
+        "5 Gems"
+      ],
+      [
+        "Shortfall",
+        "5 Gems"
+      ]
+    ],
+    "buttons": [
+      [
+        "Back to store",
+        "SC-STORE-B-EQUIPPED"
+      ]
+    ],
+    "state": [
+      210,
+      180,
+      0,
+      30,
+      0
+    ],
+    "coins": 40,
+    "gems": 5,
+    "stage": "Personalized",
+    "warning": true,
+    "note": "No real-money checkout. Cash, learning progress and Style Coins cannot cover this purchase."
+  },
+  {
+    "id": "SC-STORE-0",
+    "title": "A little style, when you’re ready.",
+    "subtitle": "Finish the chapter to receive demo cosmetic currency.",
+    "rows": [
+      [
+        "Sunstripe decal",
+        "60 Style Coins · unavailable"
+      ],
+      [
+        "Midnight paint",
+        "10 Gems · unavailable"
+      ]
+    ],
+    "buttons": [
+      [
+        "Return to city",
+        "SC-03"
+      ]
+    ],
+    "state": [
+      500,
+      300,
+      80,
+      50,
+      70
+    ],
+    "coins": 0,
+    "gems": 0
+  },
+  {
+    "id": "SC-HELP-0",
+    "title": "Pay for time. Keep the decision.",
+    "subtitle": "Separate resettable example. Main-week funds are untouched.",
+    "rows": [
+      [
+        "Example cash / grocery reserve",
+        "110 / 80"
+      ],
+      [
+        "Available",
+        "30"
+      ],
+      [
+        "Delivery fee / benefit",
+        "10 / saves 1 time slot"
+      ],
+      [
+        "Duration / renewal",
+        "One session / none"
+      ]
+    ],
+    "buttons": [
+      [
+        "Hire for 10",
+        "SC-HELP-ACTIVE"
+      ],
+      [
+        "Self-shop",
+        "SC-HELP-SELF"
+      ],
+      [
+        "Exit example",
+        "BACK"
+      ],
+      [
+        "Try low-budget example",
+        "SC-HELP-LOW"
+      ]
+    ],
+    "state": [
+      110,
+      0,
+      80,
+      0,
+      30
+    ],
+    "note": "Cancel before delivery for a full 10 refund. Groceries still cost money."
+  },
+  {
+    "id": "SC-HELP-ACTIVE",
+    "title": "One delivery. More time.",
+    "subtitle": "Delivery has not started. No future charges.",
+    "rows": [
+      [
+        "Example cash / grocery reserve",
+        "100 / 80"
+      ],
+      [
+        "Available",
+        "20"
+      ],
+      [
+        "Time retained",
+        "2 slots"
+      ]
+    ],
+    "buttons": [
+      [
+        "Cancel help",
+        "SC-HELP-CANCEL"
+      ],
+      [
+        "Exit example",
+        "SC-03"
+      ],
+      [
+        "Reset example",
+        "SC-HELP-0"
+      ]
+    ],
+    "state": [
+      100,
+      0,
+      80,
+      0,
+      20
+    ]
+  },
+  {
+    "id": "SC-HELP-CANCEL",
+    "title": "Cancel this delivery?",
+    "subtitle": "Refund the one-session helper fee once.",
+    "rows": [
+      [
+        "Refund",
+        "10"
+      ],
+      [
+        "Example cash after",
+        "110"
+      ],
+      [
+        "Available after",
+        "30"
+      ]
+    ],
+    "buttons": [
+      [
+        "Confirm cancellation",
+        "SC-HELP-CANCELED"
+      ],
+      [
+        "Keep delivery",
+        "SC-HELP-ACTIVE"
+      ]
+    ],
+    "state": [
+      100,
+      0,
+      80,
+      0,
+      20
+    ]
+  },
+  {
+    "id": "SC-HELP-CANCELED",
+    "title": "Delivery canceled.",
+    "subtitle": "The 10 fee was refunded once.",
+    "rows": [
+      [
+        "Example cash",
+        "110"
+      ],
+      [
+        "Available",
+        "30"
+      ],
+      [
+        "Future charges",
+        "None"
+      ]
+    ],
+    "buttons": [
+      [
+        "Compare again",
+        "SC-HELP-0"
+      ],
+      [
+        "Exit example",
+        "SC-03"
+      ]
+    ],
+    "state": [
+      110,
+      0,
+      80,
+      0,
+      30
+    ]
+  },
+  {
+    "id": "SC-HELP-SELF",
+    "title": "Your time. Your choice.",
+    "subtitle": "You still pay for groceries. No helper fee.",
+    "rows": [
+      [
+        "Helper fee",
+        "0"
+      ],
+      [
+        "Time used / remaining",
+        "1 / 1 slot"
+      ],
+      [
+        "Available",
+        "30"
+      ]
+    ],
+    "buttons": [
+      [
+        "Compare delivery",
+        "SC-HELP-0"
+      ],
+      [
+        "Exit example",
+        "SC-03"
+      ]
+    ],
+    "state": [
+      110,
+      0,
+      80,
+      0,
+      30
+    ]
+  },
+  {
+    "id": "SC-HELP-0__SC-03",
+    "title": "Pay for time. Keep the decision.",
+    "subtitle": "Separate resettable example. Main-week funds are untouched.",
+    "rows": [
+      [
+        "Example cash / grocery reserve",
+        "110 / 80"
+      ],
+      [
+        "Available",
+        "30"
+      ],
+      [
+        "Delivery fee / benefit",
+        "10 / saves 1 time slot"
+      ],
+      [
+        "Duration / renewal",
+        "One session / none"
+      ]
+    ],
+    "buttons": [
+      [
+        "Hire for 10",
+        "SC-HELP-ACTIVE__SC-03"
+      ],
+      [
+        "Self-shop",
+        "SC-HELP-SELF__SC-03"
+      ],
+      [
+        "Exit example",
+        "SC-03"
+      ],
+      [
+        "Try low-budget example",
+        "SC-HELP-LOW__SC-03"
+      ]
+    ],
+    "state": [
+      110,
+      0,
+      80,
+      0,
+      30
+    ],
+    "note": "Cancel before delivery for a full 10 refund. Groceries still cost money."
+  },
+  {
+    "id": "SC-HELP-ACTIVE__SC-03",
+    "title": "One delivery. More time.",
+    "subtitle": "Delivery has not started. No future charges.",
+    "rows": [
+      [
+        "Example cash / grocery reserve",
+        "100 / 80"
+      ],
+      [
+        "Available",
+        "20"
+      ],
+      [
+        "Time retained",
+        "2 slots"
+      ]
+    ],
+    "buttons": [
+      [
+        "Cancel help",
+        "SC-HELP-CANCEL__SC-03"
+      ],
+      [
+        "Exit example",
+        "SC-03"
+      ],
+      [
+        "Reset example",
+        "SC-HELP-0__SC-03"
+      ]
+    ],
+    "state": [
+      100,
+      0,
+      80,
+      0,
+      20
+    ]
+  },
+  {
+    "id": "SC-HELP-CANCEL__SC-03",
+    "title": "Cancel this delivery?",
+    "subtitle": "Refund the one-session helper fee once.",
+    "rows": [
+      [
+        "Refund",
+        "10"
+      ],
+      [
+        "Example cash after",
+        "110"
+      ],
+      [
+        "Available after",
+        "30"
+      ]
+    ],
+    "buttons": [
+      [
+        "Confirm cancellation",
+        "SC-HELP-CANCELED__SC-03"
+      ],
+      [
+        "Keep delivery",
+        "SC-HELP-ACTIVE__SC-03"
+      ]
+    ],
+    "state": [
+      100,
+      0,
+      80,
+      0,
+      20
+    ]
+  },
+  {
+    "id": "SC-HELP-CANCELED__SC-03",
+    "title": "Delivery canceled.",
+    "subtitle": "The 10 fee was refunded once.",
+    "rows": [
+      [
+        "Example cash",
+        "110"
+      ],
+      [
+        "Available",
+        "30"
+      ],
+      [
+        "Future charges",
+        "None"
+      ]
+    ],
+    "buttons": [
+      [
+        "Compare again",
+        "SC-HELP-0__SC-03"
+      ],
+      [
+        "Exit example",
+        "SC-03"
+      ]
+    ],
+    "state": [
+      110,
+      0,
+      80,
+      0,
+      30
+    ]
+  },
+  {
+    "id": "SC-HELP-SELF__SC-03",
+    "title": "Your time. Your choice.",
+    "subtitle": "You still pay for groceries. No helper fee.",
+    "rows": [
+      [
+        "Helper fee",
+        "0"
+      ],
+      [
+        "Time used / remaining",
+        "1 / 1 slot"
+      ],
+      [
+        "Available",
+        "30"
+      ]
+    ],
+    "buttons": [
+      [
+        "Compare delivery",
+        "SC-HELP-0__SC-03"
+      ],
+      [
+        "Exit example",
+        "SC-03"
+      ]
+    ],
+    "state": [
+      110,
+      0,
+      80,
+      0,
+      30
+    ]
+  },
+  {
+    "id": "SC-HELP-0__SC-13-A",
+    "title": "Pay for time. Keep the decision.",
+    "subtitle": "Separate resettable example. Main-week funds are untouched.",
+    "rows": [
+      [
+        "Example cash / grocery reserve",
+        "110 / 80"
+      ],
+      [
+        "Available",
+        "30"
+      ],
+      [
+        "Delivery fee / benefit",
+        "10 / saves 1 time slot"
+      ],
+      [
+        "Duration / renewal",
+        "One session / none"
+      ]
+    ],
+    "buttons": [
+      [
+        "Hire for 10",
+        "SC-HELP-ACTIVE__SC-13-A"
+      ],
+      [
+        "Self-shop",
+        "SC-HELP-SELF__SC-13-A"
+      ],
+      [
+        "Exit example",
+        "SC-13-A"
+      ],
+      [
+        "Try low-budget example",
+        "SC-HELP-LOW__SC-13-A"
+      ]
+    ],
+    "state": [
+      110,
+      0,
+      80,
+      0,
+      30
+    ],
+    "note": "Cancel before delivery for a full 10 refund. Groceries still cost money."
+  },
+  {
+    "id": "SC-HELP-ACTIVE__SC-13-A",
+    "title": "One delivery. More time.",
+    "subtitle": "Delivery has not started. No future charges.",
+    "rows": [
+      [
+        "Example cash / grocery reserve",
+        "100 / 80"
+      ],
+      [
+        "Available",
+        "20"
+      ],
+      [
+        "Time retained",
+        "2 slots"
+      ]
+    ],
+    "buttons": [
+      [
+        "Cancel help",
+        "SC-HELP-CANCEL__SC-13-A"
+      ],
+      [
+        "Exit example",
+        "SC-13-A"
+      ],
+      [
+        "Reset example",
+        "SC-HELP-0__SC-13-A"
+      ]
+    ],
+    "state": [
+      100,
+      0,
+      80,
+      0,
+      20
+    ]
+  },
+  {
+    "id": "SC-HELP-CANCEL__SC-13-A",
+    "title": "Cancel this delivery?",
+    "subtitle": "Refund the one-session helper fee once.",
+    "rows": [
+      [
+        "Refund",
+        "10"
+      ],
+      [
+        "Example cash after",
+        "110"
+      ],
+      [
+        "Available after",
+        "30"
+      ]
+    ],
+    "buttons": [
+      [
+        "Confirm cancellation",
+        "SC-HELP-CANCELED__SC-13-A"
+      ],
+      [
+        "Keep delivery",
+        "SC-HELP-ACTIVE__SC-13-A"
+      ]
+    ],
+    "state": [
+      100,
+      0,
+      80,
+      0,
+      20
+    ]
+  },
+  {
+    "id": "SC-HELP-CANCELED__SC-13-A",
+    "title": "Delivery canceled.",
+    "subtitle": "The 10 fee was refunded once.",
+    "rows": [
+      [
+        "Example cash",
+        "110"
+      ],
+      [
+        "Available",
+        "30"
+      ],
+      [
+        "Future charges",
+        "None"
+      ]
+    ],
+    "buttons": [
+      [
+        "Compare again",
+        "SC-HELP-0__SC-13-A"
+      ],
+      [
+        "Exit example",
+        "SC-13-A"
+      ]
+    ],
+    "state": [
+      110,
+      0,
+      80,
+      0,
+      30
+    ]
+  },
+  {
+    "id": "SC-HELP-SELF__SC-13-A",
+    "title": "Your time. Your choice.",
+    "subtitle": "You still pay for groceries. No helper fee.",
+    "rows": [
+      [
+        "Helper fee",
+        "0"
+      ],
+      [
+        "Time used / remaining",
+        "1 / 1 slot"
+      ],
+      [
+        "Available",
+        "30"
+      ]
+    ],
+    "buttons": [
+      [
+        "Compare delivery",
+        "SC-HELP-0__SC-13-A"
+      ],
+      [
+        "Exit example",
+        "SC-13-A"
+      ]
+    ],
+    "state": [
+      110,
+      0,
+      80,
+      0,
+      30
+    ]
+  },
+  {
+    "id": "SC-HELP-0__SC-13-A-OWNED",
+    "title": "Pay for time. Keep the decision.",
+    "subtitle": "Separate resettable example. Main-week funds are untouched.",
+    "rows": [
+      [
+        "Example cash / grocery reserve",
+        "110 / 80"
+      ],
+      [
+        "Available",
+        "30"
+      ],
+      [
+        "Delivery fee / benefit",
+        "10 / saves 1 time slot"
+      ],
+      [
+        "Duration / renewal",
+        "One session / none"
+      ]
+    ],
+    "buttons": [
+      [
+        "Hire for 10",
+        "SC-HELP-ACTIVE__SC-13-A-OWNED"
+      ],
+      [
+        "Self-shop",
+        "SC-HELP-SELF__SC-13-A-OWNED"
+      ],
+      [
+        "Exit example",
+        "SC-13-A-OWNED"
+      ],
+      [
+        "Try low-budget example",
+        "SC-HELP-LOW__SC-13-A-OWNED"
+      ]
+    ],
+    "state": [
+      110,
+      0,
+      80,
+      0,
+      30
+    ],
+    "note": "Cancel before delivery for a full 10 refund. Groceries still cost money."
+  },
+  {
+    "id": "SC-HELP-ACTIVE__SC-13-A-OWNED",
+    "title": "One delivery. More time.",
+    "subtitle": "Delivery has not started. No future charges.",
+    "rows": [
+      [
+        "Example cash / grocery reserve",
+        "100 / 80"
+      ],
+      [
+        "Available",
+        "20"
+      ],
+      [
+        "Time retained",
+        "2 slots"
+      ]
+    ],
+    "buttons": [
+      [
+        "Cancel help",
+        "SC-HELP-CANCEL__SC-13-A-OWNED"
+      ],
+      [
+        "Exit example",
+        "SC-13-A-OWNED"
+      ],
+      [
+        "Reset example",
+        "SC-HELP-0__SC-13-A-OWNED"
+      ]
+    ],
+    "state": [
+      100,
+      0,
+      80,
+      0,
+      20
+    ]
+  },
+  {
+    "id": "SC-HELP-CANCEL__SC-13-A-OWNED",
+    "title": "Cancel this delivery?",
+    "subtitle": "Refund the one-session helper fee once.",
+    "rows": [
+      [
+        "Refund",
+        "10"
+      ],
+      [
+        "Example cash after",
+        "110"
+      ],
+      [
+        "Available after",
+        "30"
+      ]
+    ],
+    "buttons": [
+      [
+        "Confirm cancellation",
+        "SC-HELP-CANCELED__SC-13-A-OWNED"
+      ],
+      [
+        "Keep delivery",
+        "SC-HELP-ACTIVE__SC-13-A-OWNED"
+      ]
+    ],
+    "state": [
+      100,
+      0,
+      80,
+      0,
+      20
+    ]
+  },
+  {
+    "id": "SC-HELP-CANCELED__SC-13-A-OWNED",
+    "title": "Delivery canceled.",
+    "subtitle": "The 10 fee was refunded once.",
+    "rows": [
+      [
+        "Example cash",
+        "110"
+      ],
+      [
+        "Available",
+        "30"
+      ],
+      [
+        "Future charges",
+        "None"
+      ]
+    ],
+    "buttons": [
+      [
+        "Compare again",
+        "SC-HELP-0__SC-13-A-OWNED"
+      ],
+      [
+        "Exit example",
+        "SC-13-A-OWNED"
+      ]
+    ],
+    "state": [
+      110,
+      0,
+      80,
+      0,
+      30
+    ]
+  },
+  {
+    "id": "SC-HELP-SELF__SC-13-A-OWNED",
+    "title": "Your time. Your choice.",
+    "subtitle": "You still pay for groceries. No helper fee.",
+    "rows": [
+      [
+        "Helper fee",
+        "0"
+      ],
+      [
+        "Time used / remaining",
+        "1 / 1 slot"
+      ],
+      [
+        "Available",
+        "30"
+      ]
+    ],
+    "buttons": [
+      [
+        "Compare delivery",
+        "SC-HELP-0__SC-13-A-OWNED"
+      ],
+      [
+        "Exit example",
+        "SC-13-A-OWNED"
+      ]
+    ],
+    "state": [
+      110,
+      0,
+      80,
+      0,
+      30
+    ]
+  },
+  {
+    "id": "SC-HELP-0__SC-13-A-EQUIPPED",
+    "title": "Pay for time. Keep the decision.",
+    "subtitle": "Separate resettable example. Main-week funds are untouched.",
+    "rows": [
+      [
+        "Example cash / grocery reserve",
+        "110 / 80"
+      ],
+      [
+        "Available",
+        "30"
+      ],
+      [
+        "Delivery fee / benefit",
+        "10 / saves 1 time slot"
+      ],
+      [
+        "Duration / renewal",
+        "One session / none"
+      ]
+    ],
+    "buttons": [
+      [
+        "Hire for 10",
+        "SC-HELP-ACTIVE__SC-13-A-EQUIPPED"
+      ],
+      [
+        "Self-shop",
+        "SC-HELP-SELF__SC-13-A-EQUIPPED"
+      ],
+      [
+        "Exit example",
+        "SC-13-A-EQUIPPED"
+      ],
+      [
+        "Try low-budget example",
+        "SC-HELP-LOW__SC-13-A-EQUIPPED"
+      ]
+    ],
+    "state": [
+      110,
+      0,
+      80,
+      0,
+      30
+    ],
+    "note": "Cancel before delivery for a full 10 refund. Groceries still cost money."
+  },
+  {
+    "id": "SC-HELP-ACTIVE__SC-13-A-EQUIPPED",
+    "title": "One delivery. More time.",
+    "subtitle": "Delivery has not started. No future charges.",
+    "rows": [
+      [
+        "Example cash / grocery reserve",
+        "100 / 80"
+      ],
+      [
+        "Available",
+        "20"
+      ],
+      [
+        "Time retained",
+        "2 slots"
+      ]
+    ],
+    "buttons": [
+      [
+        "Cancel help",
+        "SC-HELP-CANCEL__SC-13-A-EQUIPPED"
+      ],
+      [
+        "Exit example",
+        "SC-13-A-EQUIPPED"
+      ],
+      [
+        "Reset example",
+        "SC-HELP-0__SC-13-A-EQUIPPED"
+      ]
+    ],
+    "state": [
+      100,
+      0,
+      80,
+      0,
+      20
+    ]
+  },
+  {
+    "id": "SC-HELP-CANCEL__SC-13-A-EQUIPPED",
+    "title": "Cancel this delivery?",
+    "subtitle": "Refund the one-session helper fee once.",
+    "rows": [
+      [
+        "Refund",
+        "10"
+      ],
+      [
+        "Example cash after",
+        "110"
+      ],
+      [
+        "Available after",
+        "30"
+      ]
+    ],
+    "buttons": [
+      [
+        "Confirm cancellation",
+        "SC-HELP-CANCELED__SC-13-A-EQUIPPED"
+      ],
+      [
+        "Keep delivery",
+        "SC-HELP-ACTIVE__SC-13-A-EQUIPPED"
+      ]
+    ],
+    "state": [
+      100,
+      0,
+      80,
+      0,
+      20
+    ]
+  },
+  {
+    "id": "SC-HELP-CANCELED__SC-13-A-EQUIPPED",
+    "title": "Delivery canceled.",
+    "subtitle": "The 10 fee was refunded once.",
+    "rows": [
+      [
+        "Example cash",
+        "110"
+      ],
+      [
+        "Available",
+        "30"
+      ],
+      [
+        "Future charges",
+        "None"
+      ]
+    ],
+    "buttons": [
+      [
+        "Compare again",
+        "SC-HELP-0__SC-13-A-EQUIPPED"
+      ],
+      [
+        "Exit example",
+        "SC-13-A-EQUIPPED"
+      ]
+    ],
+    "state": [
+      110,
+      0,
+      80,
+      0,
+      30
+    ]
+  },
+  {
+    "id": "SC-HELP-SELF__SC-13-A-EQUIPPED",
+    "title": "Your time. Your choice.",
+    "subtitle": "You still pay for groceries. No helper fee.",
+    "rows": [
+      [
+        "Helper fee",
+        "0"
+      ],
+      [
+        "Time used / remaining",
+        "1 / 1 slot"
+      ],
+      [
+        "Available",
+        "30"
+      ]
+    ],
+    "buttons": [
+      [
+        "Compare delivery",
+        "SC-HELP-0__SC-13-A-EQUIPPED"
+      ],
+      [
+        "Exit example",
+        "SC-13-A-EQUIPPED"
+      ]
+    ],
+    "state": [
+      110,
+      0,
+      80,
+      0,
+      30
+    ]
+  },
+  {
+    "id": "SC-HELP-0__SC-13-B",
+    "title": "Pay for time. Keep the decision.",
+    "subtitle": "Separate resettable example. Main-week funds are untouched.",
+    "rows": [
+      [
+        "Example cash / grocery reserve",
+        "110 / 80"
+      ],
+      [
+        "Available",
+        "30"
+      ],
+      [
+        "Delivery fee / benefit",
+        "10 / saves 1 time slot"
+      ],
+      [
+        "Duration / renewal",
+        "One session / none"
+      ]
+    ],
+    "buttons": [
+      [
+        "Hire for 10",
+        "SC-HELP-ACTIVE__SC-13-B"
+      ],
+      [
+        "Self-shop",
+        "SC-HELP-SELF__SC-13-B"
+      ],
+      [
+        "Exit example",
+        "SC-13-B"
+      ],
+      [
+        "Try low-budget example",
+        "SC-HELP-LOW__SC-13-B"
+      ]
+    ],
+    "state": [
+      110,
+      0,
+      80,
+      0,
+      30
+    ],
+    "note": "Cancel before delivery for a full 10 refund. Groceries still cost money."
+  },
+  {
+    "id": "SC-HELP-ACTIVE__SC-13-B",
+    "title": "One delivery. More time.",
+    "subtitle": "Delivery has not started. No future charges.",
+    "rows": [
+      [
+        "Example cash / grocery reserve",
+        "100 / 80"
+      ],
+      [
+        "Available",
+        "20"
+      ],
+      [
+        "Time retained",
+        "2 slots"
+      ]
+    ],
+    "buttons": [
+      [
+        "Cancel help",
+        "SC-HELP-CANCEL__SC-13-B"
+      ],
+      [
+        "Exit example",
+        "SC-13-B"
+      ],
+      [
+        "Reset example",
+        "SC-HELP-0__SC-13-B"
+      ]
+    ],
+    "state": [
+      100,
+      0,
+      80,
+      0,
+      20
+    ]
+  },
+  {
+    "id": "SC-HELP-CANCEL__SC-13-B",
+    "title": "Cancel this delivery?",
+    "subtitle": "Refund the one-session helper fee once.",
+    "rows": [
+      [
+        "Refund",
+        "10"
+      ],
+      [
+        "Example cash after",
+        "110"
+      ],
+      [
+        "Available after",
+        "30"
+      ]
+    ],
+    "buttons": [
+      [
+        "Confirm cancellation",
+        "SC-HELP-CANCELED__SC-13-B"
+      ],
+      [
+        "Keep delivery",
+        "SC-HELP-ACTIVE__SC-13-B"
+      ]
+    ],
+    "state": [
+      100,
+      0,
+      80,
+      0,
+      20
+    ]
+  },
+  {
+    "id": "SC-HELP-CANCELED__SC-13-B",
+    "title": "Delivery canceled.",
+    "subtitle": "The 10 fee was refunded once.",
+    "rows": [
+      [
+        "Example cash",
+        "110"
+      ],
+      [
+        "Available",
+        "30"
+      ],
+      [
+        "Future charges",
+        "None"
+      ]
+    ],
+    "buttons": [
+      [
+        "Compare again",
+        "SC-HELP-0__SC-13-B"
+      ],
+      [
+        "Exit example",
+        "SC-13-B"
+      ]
+    ],
+    "state": [
+      110,
+      0,
+      80,
+      0,
+      30
+    ]
+  },
+  {
+    "id": "SC-HELP-SELF__SC-13-B",
+    "title": "Your time. Your choice.",
+    "subtitle": "You still pay for groceries. No helper fee.",
+    "rows": [
+      [
+        "Helper fee",
+        "0"
+      ],
+      [
+        "Time used / remaining",
+        "1 / 1 slot"
+      ],
+      [
+        "Available",
+        "30"
+      ]
+    ],
+    "buttons": [
+      [
+        "Compare delivery",
+        "SC-HELP-0__SC-13-B"
+      ],
+      [
+        "Exit example",
+        "SC-13-B"
+      ]
+    ],
+    "state": [
+      110,
+      0,
+      80,
+      0,
+      30
+    ]
+  },
+  {
+    "id": "SC-HELP-0__SC-13-B-OWNED",
+    "title": "Pay for time. Keep the decision.",
+    "subtitle": "Separate resettable example. Main-week funds are untouched.",
+    "rows": [
+      [
+        "Example cash / grocery reserve",
+        "110 / 80"
+      ],
+      [
+        "Available",
+        "30"
+      ],
+      [
+        "Delivery fee / benefit",
+        "10 / saves 1 time slot"
+      ],
+      [
+        "Duration / renewal",
+        "One session / none"
+      ]
+    ],
+    "buttons": [
+      [
+        "Hire for 10",
+        "SC-HELP-ACTIVE__SC-13-B-OWNED"
+      ],
+      [
+        "Self-shop",
+        "SC-HELP-SELF__SC-13-B-OWNED"
+      ],
+      [
+        "Exit example",
+        "SC-13-B-OWNED"
+      ],
+      [
+        "Try low-budget example",
+        "SC-HELP-LOW__SC-13-B-OWNED"
+      ]
+    ],
+    "state": [
+      110,
+      0,
+      80,
+      0,
+      30
+    ],
+    "note": "Cancel before delivery for a full 10 refund. Groceries still cost money."
+  },
+  {
+    "id": "SC-HELP-ACTIVE__SC-13-B-OWNED",
+    "title": "One delivery. More time.",
+    "subtitle": "Delivery has not started. No future charges.",
+    "rows": [
+      [
+        "Example cash / grocery reserve",
+        "100 / 80"
+      ],
+      [
+        "Available",
+        "20"
+      ],
+      [
+        "Time retained",
+        "2 slots"
+      ]
+    ],
+    "buttons": [
+      [
+        "Cancel help",
+        "SC-HELP-CANCEL__SC-13-B-OWNED"
+      ],
+      [
+        "Exit example",
+        "SC-13-B-OWNED"
+      ],
+      [
+        "Reset example",
+        "SC-HELP-0__SC-13-B-OWNED"
+      ]
+    ],
+    "state": [
+      100,
+      0,
+      80,
+      0,
+      20
+    ]
+  },
+  {
+    "id": "SC-HELP-CANCEL__SC-13-B-OWNED",
+    "title": "Cancel this delivery?",
+    "subtitle": "Refund the one-session helper fee once.",
+    "rows": [
+      [
+        "Refund",
+        "10"
+      ],
+      [
+        "Example cash after",
+        "110"
+      ],
+      [
+        "Available after",
+        "30"
+      ]
+    ],
+    "buttons": [
+      [
+        "Confirm cancellation",
+        "SC-HELP-CANCELED__SC-13-B-OWNED"
+      ],
+      [
+        "Keep delivery",
+        "SC-HELP-ACTIVE__SC-13-B-OWNED"
+      ]
+    ],
+    "state": [
+      100,
+      0,
+      80,
+      0,
+      20
+    ]
+  },
+  {
+    "id": "SC-HELP-CANCELED__SC-13-B-OWNED",
+    "title": "Delivery canceled.",
+    "subtitle": "The 10 fee was refunded once.",
+    "rows": [
+      [
+        "Example cash",
+        "110"
+      ],
+      [
+        "Available",
+        "30"
+      ],
+      [
+        "Future charges",
+        "None"
+      ]
+    ],
+    "buttons": [
+      [
+        "Compare again",
+        "SC-HELP-0__SC-13-B-OWNED"
+      ],
+      [
+        "Exit example",
+        "SC-13-B-OWNED"
+      ]
+    ],
+    "state": [
+      110,
+      0,
+      80,
+      0,
+      30
+    ]
+  },
+  {
+    "id": "SC-HELP-SELF__SC-13-B-OWNED",
+    "title": "Your time. Your choice.",
+    "subtitle": "You still pay for groceries. No helper fee.",
+    "rows": [
+      [
+        "Helper fee",
+        "0"
+      ],
+      [
+        "Time used / remaining",
+        "1 / 1 slot"
+      ],
+      [
+        "Available",
+        "30"
+      ]
+    ],
+    "buttons": [
+      [
+        "Compare delivery",
+        "SC-HELP-0__SC-13-B-OWNED"
+      ],
+      [
+        "Exit example",
+        "SC-13-B-OWNED"
+      ]
+    ],
+    "state": [
+      110,
+      0,
+      80,
+      0,
+      30
+    ]
+  },
+  {
+    "id": "SC-HELP-0__SC-13-B-EQUIPPED",
+    "title": "Pay for time. Keep the decision.",
+    "subtitle": "Separate resettable example. Main-week funds are untouched.",
+    "rows": [
+      [
+        "Example cash / grocery reserve",
+        "110 / 80"
+      ],
+      [
+        "Available",
+        "30"
+      ],
+      [
+        "Delivery fee / benefit",
+        "10 / saves 1 time slot"
+      ],
+      [
+        "Duration / renewal",
+        "One session / none"
+      ]
+    ],
+    "buttons": [
+      [
+        "Hire for 10",
+        "SC-HELP-ACTIVE__SC-13-B-EQUIPPED"
+      ],
+      [
+        "Self-shop",
+        "SC-HELP-SELF__SC-13-B-EQUIPPED"
+      ],
+      [
+        "Exit example",
+        "SC-13-B-EQUIPPED"
+      ],
+      [
+        "Try low-budget example",
+        "SC-HELP-LOW__SC-13-B-EQUIPPED"
+      ]
+    ],
+    "state": [
+      110,
+      0,
+      80,
+      0,
+      30
+    ],
+    "note": "Cancel before delivery for a full 10 refund. Groceries still cost money."
+  },
+  {
+    "id": "SC-HELP-ACTIVE__SC-13-B-EQUIPPED",
+    "title": "One delivery. More time.",
+    "subtitle": "Delivery has not started. No future charges.",
+    "rows": [
+      [
+        "Example cash / grocery reserve",
+        "100 / 80"
+      ],
+      [
+        "Available",
+        "20"
+      ],
+      [
+        "Time retained",
+        "2 slots"
+      ]
+    ],
+    "buttons": [
+      [
+        "Cancel help",
+        "SC-HELP-CANCEL__SC-13-B-EQUIPPED"
+      ],
+      [
+        "Exit example",
+        "SC-13-B-EQUIPPED"
+      ],
+      [
+        "Reset example",
+        "SC-HELP-0__SC-13-B-EQUIPPED"
+      ]
+    ],
+    "state": [
+      100,
+      0,
+      80,
+      0,
+      20
+    ]
+  },
+  {
+    "id": "SC-HELP-CANCEL__SC-13-B-EQUIPPED",
+    "title": "Cancel this delivery?",
+    "subtitle": "Refund the one-session helper fee once.",
+    "rows": [
+      [
+        "Refund",
+        "10"
+      ],
+      [
+        "Example cash after",
+        "110"
+      ],
+      [
+        "Available after",
+        "30"
+      ]
+    ],
+    "buttons": [
+      [
+        "Confirm cancellation",
+        "SC-HELP-CANCELED__SC-13-B-EQUIPPED"
+      ],
+      [
+        "Keep delivery",
+        "SC-HELP-ACTIVE__SC-13-B-EQUIPPED"
+      ]
+    ],
+    "state": [
+      100,
+      0,
+      80,
+      0,
+      20
+    ]
+  },
+  {
+    "id": "SC-HELP-CANCELED__SC-13-B-EQUIPPED",
+    "title": "Delivery canceled.",
+    "subtitle": "The 10 fee was refunded once.",
+    "rows": [
+      [
+        "Example cash",
+        "110"
+      ],
+      [
+        "Available",
+        "30"
+      ],
+      [
+        "Future charges",
+        "None"
+      ]
+    ],
+    "buttons": [
+      [
+        "Compare again",
+        "SC-HELP-0__SC-13-B-EQUIPPED"
+      ],
+      [
+        "Exit example",
+        "SC-13-B-EQUIPPED"
+      ]
+    ],
+    "state": [
+      110,
+      0,
+      80,
+      0,
+      30
+    ]
+  },
+  {
+    "id": "SC-HELP-SELF__SC-13-B-EQUIPPED",
+    "title": "Your time. Your choice.",
+    "subtitle": "You still pay for groceries. No helper fee.",
+    "rows": [
+      [
+        "Helper fee",
+        "0"
+      ],
+      [
+        "Time used / remaining",
+        "1 / 1 slot"
+      ],
+      [
+        "Available",
+        "30"
+      ]
+    ],
+    "buttons": [
+      [
+        "Compare delivery",
+        "SC-HELP-0__SC-13-B-EQUIPPED"
+      ],
+      [
+        "Exit example",
+        "SC-13-B-EQUIPPED"
+      ]
+    ],
+    "state": [
+      110,
+      0,
+      80,
+      0,
+      30
+    ]
+  },
+  {
+    "id": "SC-18",
+    "title": "Make yourself comfortable.",
+    "subtitle": "Settings, help and a reliable way back.",
+    "rows": [
+      [
+        "Cash",
+        "Fictional household funds"
+      ],
+      [
+        "Reserves",
+        "Still included in cash"
+      ],
+      [
+        "Style Coins / Gems",
+        "Cosmetics only"
+      ],
+      [
+        "Sound",
+        "Silent prototype"
+      ],
+      [
+        "Motion",
+        "Static / reduced-motion Figma paths"
+      ]
+    ],
+    "buttons": [
+      [
+        "Back to my screen",
+        "BACK"
+      ],
+      [
+        "Reset demo",
+        "SC-RESET"
+      ]
+    ],
+    "state": [
+      500,
+      300,
+      80,
+      50,
+      70
+    ],
+    "hideBudget": true
+  },
+  {
+    "id": "SC-RESET",
+    "title": "Start a fresh week?",
+    "subtitle": "Reset clears the selected branch, rewards, ownership and help.",
+    "rows": [
+      [
+        "Opening cash",
+        "500"
+      ],
+      [
+        "Starting reserves",
+        "300 bills · 80 groceries · 50 goal"
+      ]
+    ],
+    "buttons": [
+      [
+        "Reset everything",
+        "SC-01"
+      ],
+      [
+        "Keep playing",
+        "BACK"
+      ]
+    ],
+    "hideBudget": true
+  },
+  {
+    "id": "SC-HELP-LOW",
+    "title": "Not enough available cash.",
+    "subtitle": "Separate example: essentials remain protected.",
+    "rows": [
+      [
+        "Example cash",
+        "85"
+      ],
+      [
+        "Grocery reserve",
+        "80"
+      ],
+      [
+        "Available / helper fee",
+        "5 / 10"
+      ],
+      [
+        "Shortfall",
+        "5"
+      ]
+    ],
+    "buttons": [
+      [
+        "Reset example",
+        "SC-HELP-0"
+      ],
+      [
+        "Exit example",
+        "BACK"
+      ]
+    ],
+    "state": [
+      85,
+      0,
+      80,
+      0,
+      5
+    ],
+    "warning": true,
+    "note": "Hiring is unavailable. No charge was made; self-service remains an option."
+  },
+  {
+    "id": "SC-HELP-LOW__SC-03",
+    "title": "Not enough available cash.",
+    "subtitle": "Separate example: essentials remain protected.",
+    "rows": [
+      [
+        "Example cash",
+        "85"
+      ],
+      [
+        "Grocery reserve",
+        "80"
+      ],
+      [
+        "Available / helper fee",
+        "5 / 10"
+      ],
+      [
+        "Shortfall",
+        "5"
+      ]
+    ],
+    "buttons": [
+      [
+        "Reset example",
+        "SC-HELP-0__SC-03"
+      ],
+      [
+        "Exit example",
+        "SC-03"
+      ]
+    ],
+    "state": [
+      85,
+      0,
+      80,
+      0,
+      5
+    ],
+    "warning": true,
+    "note": "Hiring is unavailable. No charge was made; self-service remains an option."
+  },
+  {
+    "id": "SC-HELP-LOW__SC-13-A",
+    "title": "Not enough available cash.",
+    "subtitle": "Separate example: essentials remain protected.",
+    "rows": [
+      [
+        "Example cash",
+        "85"
+      ],
+      [
+        "Grocery reserve",
+        "80"
+      ],
+      [
+        "Available / helper fee",
+        "5 / 10"
+      ],
+      [
+        "Shortfall",
+        "5"
+      ]
+    ],
+    "buttons": [
+      [
+        "Reset example",
+        "SC-HELP-0__SC-13-A"
+      ],
+      [
+        "Exit example",
+        "SC-13-A"
+      ]
+    ],
+    "state": [
+      85,
+      0,
+      80,
+      0,
+      5
+    ],
+    "warning": true,
+    "note": "Hiring is unavailable. No charge was made; self-service remains an option."
+  },
+  {
+    "id": "SC-HELP-LOW__SC-13-A-OWNED",
+    "title": "Not enough available cash.",
+    "subtitle": "Separate example: essentials remain protected.",
+    "rows": [
+      [
+        "Example cash",
+        "85"
+      ],
+      [
+        "Grocery reserve",
+        "80"
+      ],
+      [
+        "Available / helper fee",
+        "5 / 10"
+      ],
+      [
+        "Shortfall",
+        "5"
+      ]
+    ],
+    "buttons": [
+      [
+        "Reset example",
+        "SC-HELP-0__SC-13-A-OWNED"
+      ],
+      [
+        "Exit example",
+        "SC-13-A-OWNED"
+      ]
+    ],
+    "state": [
+      85,
+      0,
+      80,
+      0,
+      5
+    ],
+    "warning": true,
+    "note": "Hiring is unavailable. No charge was made; self-service remains an option."
+  },
+  {
+    "id": "SC-HELP-LOW__SC-13-A-EQUIPPED",
+    "title": "Not enough available cash.",
+    "subtitle": "Separate example: essentials remain protected.",
+    "rows": [
+      [
+        "Example cash",
+        "85"
+      ],
+      [
+        "Grocery reserve",
+        "80"
+      ],
+      [
+        "Available / helper fee",
+        "5 / 10"
+      ],
+      [
+        "Shortfall",
+        "5"
+      ]
+    ],
+    "buttons": [
+      [
+        "Reset example",
+        "SC-HELP-0__SC-13-A-EQUIPPED"
+      ],
+      [
+        "Exit example",
+        "SC-13-A-EQUIPPED"
+      ]
+    ],
+    "state": [
+      85,
+      0,
+      80,
+      0,
+      5
+    ],
+    "warning": true,
+    "note": "Hiring is unavailable. No charge was made; self-service remains an option."
+  },
+  {
+    "id": "SC-HELP-LOW__SC-13-B",
+    "title": "Not enough available cash.",
+    "subtitle": "Separate example: essentials remain protected.",
+    "rows": [
+      [
+        "Example cash",
+        "85"
+      ],
+      [
+        "Grocery reserve",
+        "80"
+      ],
+      [
+        "Available / helper fee",
+        "5 / 10"
+      ],
+      [
+        "Shortfall",
+        "5"
+      ]
+    ],
+    "buttons": [
+      [
+        "Reset example",
+        "SC-HELP-0__SC-13-B"
+      ],
+      [
+        "Exit example",
+        "SC-13-B"
+      ]
+    ],
+    "state": [
+      85,
+      0,
+      80,
+      0,
+      5
+    ],
+    "warning": true,
+    "note": "Hiring is unavailable. No charge was made; self-service remains an option."
+  },
+  {
+    "id": "SC-HELP-LOW__SC-13-B-OWNED",
+    "title": "Not enough available cash.",
+    "subtitle": "Separate example: essentials remain protected.",
+    "rows": [
+      [
+        "Example cash",
+        "85"
+      ],
+      [
+        "Grocery reserve",
+        "80"
+      ],
+      [
+        "Available / helper fee",
+        "5 / 10"
+      ],
+      [
+        "Shortfall",
+        "5"
+      ]
+    ],
+    "buttons": [
+      [
+        "Reset example",
+        "SC-HELP-0__SC-13-B-OWNED"
+      ],
+      [
+        "Exit example",
+        "SC-13-B-OWNED"
+      ]
+    ],
+    "state": [
+      85,
+      0,
+      80,
+      0,
+      5
+    ],
+    "warning": true,
+    "note": "Hiring is unavailable. No charge was made; self-service remains an option."
+  },
+  {
+    "id": "SC-HELP-LOW__SC-13-B-EQUIPPED",
+    "title": "Not enough available cash.",
+    "subtitle": "Separate example: essentials remain protected.",
+    "rows": [
+      [
+        "Example cash",
+        "85"
+      ],
+      [
+        "Grocery reserve",
+        "80"
+      ],
+      [
+        "Available / helper fee",
+        "5 / 10"
+      ],
+      [
+        "Shortfall",
+        "5"
+      ]
+    ],
+    "buttons": [
+      [
+        "Reset example",
+        "SC-HELP-0__SC-13-B-EQUIPPED"
+      ],
+      [
+        "Exit example",
+        "SC-13-B-EQUIPPED"
+      ]
+    ],
+    "state": [
+      85,
+      0,
+      80,
+      0,
+      5
+    ],
+    "warning": true,
+    "note": "Hiring is unavailable. No charge was made; self-service remains an option."
+  }
+]
