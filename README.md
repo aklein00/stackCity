@@ -6,6 +6,8 @@ A small playable financial-literacy scenario for ages 13–17, with a Three.js n
 
 ## City art direction
 
+[Download the six market styles — Three.js and Blender GLBs](https://github.com/aklein00/world_farm/tree/main/market-kit-v1)
+
 [Four mobile city style sheets — 16 options](output/concepts/mobile-style-studies/README.md)
 
 [Six-direction concept sheet](output/concepts/city-style-comparison-v02.png) · [References and generation prompts](output/concepts/README.md)
