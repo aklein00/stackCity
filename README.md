@@ -4,6 +4,13 @@ A small playable financial-literacy scenario for ages 13–17, with a Three.js n
 
 **Current milestone: 2026-11-03.** Working browser prototype and editable Figma file delivered. Figma owner team: **aklein personal**.
 
+## Latest design discussion — 2026-11-05
+
+- [Design folder: hiring brief, UI/UX priorities, and AI workflow](docs/design/README.md)
+- [Exploration folder: rankings, City-States, and reusable discussion excerpts](docs/exploration/README.md)
+
+This is an untimed art-direction and UI/UX fit exploration. The new notes distinguish owner decisions, the hiring brief, and proposed directions. They preserve the existing prototype/art studies as a baseline; they do not claim that the newly discussed concepts have been implemented. LoRA training is not a current deliverable.
+
 ## City art direction
 
 [Download the six market styles — Three.js and Blender GLBs](https://github.com/aklein00/world_farm/tree/main/market-kit-v1)

@@ -1,5 +1,7 @@
 # Stack City — art direction and asset plan
 
+> **2026-11-05 discussion update:** Read [the supplied hiring brief and current owner priorities](design/BRIEF_AND_UX_PRIORITIES.md), [the reference-driven art workflow](design/AI_ART_WORKFLOW.md), and [concept exploration](exploration/README.md) alongside this earlier document. The owner has clarified that this is not a timed art test and that UI/UX is crucial. LoRA training is not a current deliverable. New premises and scope recommendations remain exploratory; preserve existing work and distinguish it from proposed changes.
+
 ## Direction
 
 A premium miniature city: elevated three-quarter composition, readable silhouettes, carefully controlled materials and lighting, distinct districts, and small moments of activity.

@@ -1,5 +1,7 @@
 # Stack City — design brief
 
+> **2026-11-05 discussion update:** Read [the supplied hiring brief and current owner priorities](design/BRIEF_AND_UX_PRIORITIES.md), [the reference-driven art workflow](design/AI_ART_WORKFLOW.md), and [concept exploration](exploration/README.md) alongside this earlier document. The owner has clarified that this is not a timed art test and that UI/UX is crucial. LoRA training is not a current deliverable. New premises and scope recommendations remain exploratory; preserve existing work and distinguish it from proposed changes.
+
 ## Purpose
 
 Present a game world and UI system compelling enough to demonstrate art direction, environment progression, and a practical Figma workflow to a game director. Teach financial literacy through decisions in context.
